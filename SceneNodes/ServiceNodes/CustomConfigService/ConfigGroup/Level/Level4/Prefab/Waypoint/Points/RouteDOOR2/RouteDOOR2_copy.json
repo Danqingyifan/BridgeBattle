@@ -1,0 +1,38 @@
+{
+	"ClassID": 199,
+	"ClassType": "String",
+	"NodeId": 9677365540998,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "RouteDOOR2_copy",
+	"reflex": [
+		{
+			"Name": "RouteDOOR2_copy" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Value": "run" 
+		} 
+	] 
+} 

@@ -1,0 +1,79 @@
+{
+	"ClassID": 173,
+	"ClassType": "Sound",
+	"NodeId": 1369822,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "ReloadSound",
+	"reflex": [
+		{
+			"Name": "ReloadSound" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"SoundPath": "sandboxId:\/\/PVZ_AU\/SplitPeaShooter\/SplitPeaShooter_reload.mp3" 
+		},
+		{
+			"Volume": 1 
+		},
+		{
+			"IsLoop": false 
+		},
+		{
+			"PlayOnRemove": false 
+		},
+		{
+			"TransObject": {
+				"__reflextype": "SandboxNode_Ref",
+				"_nodetype": "invalid",
+				"sceneobjid": 0 
+			} 
+		},
+		{
+			"FixPos": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"IsFixPosPlay": false 
+		},
+		{
+			"RollOffMode": 0 
+		},
+		{
+			"RollOffMaxDistance": 6000 
+		},
+		{
+			"RollOffMinDistance": 600 
+		},
+		{
+			"SoundPosition": 0 
+		},
+		{
+			"Pitch": 1 
+		} 
+	] 
+} 

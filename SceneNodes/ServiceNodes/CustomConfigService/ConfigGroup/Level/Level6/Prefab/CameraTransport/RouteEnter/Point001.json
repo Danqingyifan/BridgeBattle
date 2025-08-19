@@ -1,0 +1,246 @@
+{
+	"ClassID": 123,
+	"ClassType": "GeoSolid",
+	"NodeId": 9677372612607,
+	"attribute": [
+		{
+			"name": "Curve",
+			"type": 2,
+			"value": false 
+		},
+		{
+			"name": "Time",
+			"type": 1,
+			"value": 0 
+		} 
+	],
+	"flags": 0,
+	"realNodeName": "Point001",
+	"reflex": [
+		{
+			"Name": "Point001" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": true 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 2 
+		},
+		{
+			"Euler": [
+				20.76915550231934,
+				115.8005828857422,
+				-1.826221136980166e-06 
+			] 
+		},
+		{
+			"LocalPosition": [
+				-2844.605224609375,
+				1184.225463867188,
+				479.749755859375 
+			] 
+		},
+		{
+			"LocalEuler": [
+				20.76915550231934,
+				104.8005828857422,
+				-3.652442273960332e-06 
+			] 
+		},
+		{
+			"LocalScale": [
+				1.000003099441528,
+				1.000001192092896,
+				1.000002264976501 
+			] 
+		},
+		{
+			"LocalRotation": [
+				0.1099805757403374,
+				0.7793150544166565,
+				-0.1428142637014389,
+				0.600147008895874 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		},
+		{
+			"DimensionUnit": 0 
+		},
+		{
+			"MaterialType": 4 
+		},
+		{
+			"TextureId": "" 
+		},
+		{
+			"Color": [
+				255,
+				255,
+				80,
+				255 
+			] 
+		},
+		{
+			"ModelId": "" 
+		},
+		{
+			"Gravity": 980 
+		},
+		{
+			"Friction": 0 
+		},
+		{
+			"Restitution": 0.001000000047497451 
+		},
+		{
+			"Mass": 1000 
+		},
+		{
+			"Velocity": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"AngleVelocity": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"Size": [
+				100,
+				100,
+				100 
+			] 
+		},
+		{
+			"Center": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"EnableGravity": true 
+		},
+		{
+			"Anchored": true 
+		},
+		{
+			"PhysXType": 1 
+		},
+		{
+			"EnablePhysics": true 
+		},
+		{
+			"CanCollide": true 
+		},
+		{
+			"CanTouch": true 
+		},
+		{
+			"CollideGroupID": 2 
+		},
+		{
+			"CullLayer": 0 
+		},
+		{
+			"IgnoreStreamSync": false 
+		},
+		{
+			"TextureMode": 0 
+		},
+		{
+			"TextureOverride": true 
+		},
+		{
+			"CastShadow": true 
+		},
+		{
+			"CanRideOn": false 
+		},
+		{
+			"DrawPhysicsCollider": false 
+		},
+		{
+			"ReceiveShadow": true 
+		},
+		{
+			"CanBePushed": false 
+		},
+		{
+			"OutlineActive": false 
+		},
+		{
+			"OutlineColorIndex": 0 
+		},
+		{
+			"Climbable": false 
+		},
+		{
+			"GeoSolidShape": 0 
+		},
+		{
+			"Hollow": false 
+		},
+		{
+			"ToIntersect": false 
+		},
+		{
+			"InteractMethod": 3 
+		},
+		{
+			"SrcChildren": [
+			] 
+		},
+		{
+			"LastParentID": -1 
+		},
+		{
+			"SrcChildrenList": "" 
+		} 
+	] 
+} 

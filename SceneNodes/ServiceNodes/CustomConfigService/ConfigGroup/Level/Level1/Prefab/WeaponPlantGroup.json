@@ -1,0 +1,97 @@
+{
+	"ClassID": 139,
+	"ClassType": "Transform",
+	"NodeId": 9677371709783,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "WeaponPlantGroup",
+	"reflex": [
+		{
+			"Name": "WeaponPlantGroup" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Euler": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalPosition": [
+				-202.1100006103516,
+				517.8900146484375,
+				1834.359985351562 
+			] 
+		},
+		{
+			"LocalEuler": [
+				-0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalScale": [
+				1,
+				1,
+				1 
+			] 
+		},
+		{
+			"LocalRotation": [
+				-0,
+				-0,
+				-0,
+				1 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		} 
+	] 
+} 

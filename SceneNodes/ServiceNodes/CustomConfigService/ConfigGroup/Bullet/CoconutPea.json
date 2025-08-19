@@ -1,0 +1,41 @@
+{
+	"ClassID": 576,
+	"ClassType": "CustomConfig",
+	"NodeId": 3313179762,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "CoconutPea",
+	"reflex": [
+		{
+			"Name": "CoconutPea" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"ClassNode": {
+				"__reflextype": "NodeLinker",
+				"sceneobjid": 546326 
+			} 
+		} 
+	] 
+} 

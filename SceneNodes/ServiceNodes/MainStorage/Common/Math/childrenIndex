@@ -1,0 +1,9 @@
+695400;Vec2
+695401;Vec3
+695402;Vec4
+695406;Matrix3x3
+695404;Matrix3x4
+695403;Matrix4x4
+695405;Quat
+695413;MathDefines
+698852;PerlinNoise

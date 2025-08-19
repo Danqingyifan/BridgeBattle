@@ -1,0 +1,214 @@
+{
+	"ClassID": 128,
+	"ClassType": "Model",
+	"NodeId": 9677365539324,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "SM_BlocksGroup_01.prefab",
+	"reflex": [
+		{
+			"Name": "SM_BlocksGroup_01.prefab" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": true 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 2 
+		},
+		{
+			"Euler": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalPosition": [
+				-1654.022338867188,
+				22.91919708251953,
+				529.2009887695312 
+			] 
+		},
+		{
+			"LocalEuler": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalScale": [
+				1,
+				1,
+				1 
+			] 
+		},
+		{
+			"LocalRotation": [
+				-0,
+				-0,
+				-0,
+				1 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		},
+		{
+			"DimensionUnit": 0 
+		},
+		{
+			"MaterialType": 0 
+		},
+		{
+			"TextureId": "" 
+		},
+		{
+			"Color": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"ModelId": "sandboxId:\/\/Map_Scenes\/PVZZS_1001\/Building\/SM_BlocksGroup_01.prefab" 
+		},
+		{
+			"Gravity": 980 
+		},
+		{
+			"Friction": 0 
+		},
+		{
+			"Restitution": 0.001000000047497451 
+		},
+		{
+			"Mass": 1000 
+		},
+		{
+			"Velocity": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"AngleVelocity": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"Size": [
+				152.8378753662109,
+				82.81401062011719,
+				1192.730102539062 
+			] 
+		},
+		{
+			"Center": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"EnableGravity": true 
+		},
+		{
+			"Anchored": true 
+		},
+		{
+			"PhysXType": 2 
+		},
+		{
+			"EnablePhysics": true 
+		},
+		{
+			"CanCollide": true 
+		},
+		{
+			"CanTouch": true 
+		},
+		{
+			"CollideGroupID": 1 
+		},
+		{
+			"CullLayer": 0 
+		},
+		{
+			"IgnoreStreamSync": false 
+		},
+		{
+			"TextureMode": 0 
+		},
+		{
+			"TextureOverride": true 
+		},
+		{
+			"CastShadow": true 
+		},
+		{
+			"CanRideOn": false 
+		},
+		{
+			"DrawPhysicsCollider": false 
+		},
+		{
+			"ReceiveShadow": true 
+		},
+		{
+			"CanBePushed": false 
+		},
+		{
+			"OutlineActive": false 
+		},
+		{
+			"OutlineColorIndex": 0 
+		},
+		{
+			"Climbable": false 
+		} 
+	] 
+} 

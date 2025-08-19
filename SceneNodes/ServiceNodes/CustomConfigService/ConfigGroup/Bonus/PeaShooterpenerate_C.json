@@ -1,0 +1,41 @@
+{
+	"ClassID": 576,
+	"ClassType": "CustomConfig",
+	"NodeId": 9677371319380,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "PeaShooterpenerate_C",
+	"reflex": [
+		{
+			"Name": "PeaShooterpenerate_C" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"ClassNode": {
+				"__reflextype": "NodeLinker",
+				"sceneobjid": 9677362622097 
+			} 
+		} 
+	] 
+} 

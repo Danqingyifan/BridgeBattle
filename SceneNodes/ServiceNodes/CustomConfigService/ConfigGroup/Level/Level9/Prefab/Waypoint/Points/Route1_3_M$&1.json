@@ -1,0 +1,38 @@
+{
+	"ClassID": 199,
+	"ClassType": "String",
+	"NodeId": 9677365467648,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Route1_3",
+	"reflex": [
+		{
+			"Name": "Route1_3" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Value": "climb" 
+		} 
+	] 
+} 

@@ -1,0 +1,39 @@
+local data=
+{
+    BonusID=999,
+    BonusPrerequisite=
+    {
+
+    },
+    BonusName="戴夫的礼物",
+    BonusCategory=3,
+    BonusType=0,
+    BonusPlantTarget=0,
+    BonusSelectType=0,
+    BonusList=
+    {
+        {
+            BonusValue=5,
+            BonusValueType=1,
+            BonusOperation=0,
+            BonusPlantAttributeType=0,
+            BonusPlantAttribute=1,
+            BonusHasDuration=false
+        },
+        {
+            BonusValue=-1,
+            BonusValueType=1,
+            BonusOperation=2,
+            BonusPlantAttributeType=0,
+            BonusPlantAttribute=1,
+            BonusHasDuration=true,
+            BonusDurationType=0,
+            BonusDurationValue=1
+        }
+    },
+    BonusQuality=1,
+    BonusIcon="",
+    BonusDescription="",
+    BonusFooter=""
+}
+return data

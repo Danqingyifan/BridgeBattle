@@ -1,0 +1,46 @@
+local data=
+{
+    BonusID=112,
+    BonusPrerequisite=
+    {
+
+    },
+    BonusName="进阶强化",
+    BonusCategory=2,
+    BonusType=0,
+    BonusPlantTarget=2,
+    BonusPlantNameTargetValue="ElectricityPeaShooter",
+    BonusSelectType=0,
+    BonusList=
+    {
+        {
+            BonusValue=200,
+            BonusValueType=0,
+            BonusOperation=1,
+            BonusPlantAttributeType=0,
+            BonusPlantAttribute=10,
+            BonusHasDuration=false
+        },
+        {
+            BonusValue=141,
+            BonusValueType=0,
+            BonusOperation=1,
+            BonusPlantAttributeType=1,
+            BonusBulletAttribute=1,
+            BonusHasDuration=false
+        },
+        {
+            BonusValue=200,
+            BonusValueType=0,
+            BonusOperation=1,
+            BonusPlantAttributeType=1,
+            BonusBulletAttribute=3,
+            BonusHasDuration=false
+        }
+    },
+    BonusQuality=1,
+    BonusIcon="sandboxId://PVZ_UI/Common/Icon/Plants/Plant_S/Plants_S_0441001.png",
+    BonusDescription="蓄力时间翻倍，爆炸范围与伤害也翻倍",
+    BonusFooter=""
+}
+return data

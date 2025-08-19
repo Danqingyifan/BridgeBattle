@@ -1,0 +1,214 @@
+{
+	"ClassID": 128,
+	"ClassType": "Model",
+	"NodeId": 9677364171789,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Armor",
+	"reflex": [
+		{
+			"Name": "Armor" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": true 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 2 
+		},
+		{
+			"Euler": [
+				-0,
+				-0,
+				90 
+			] 
+		},
+		{
+			"LocalPosition": [
+				4,
+				40,
+				0 
+			] 
+		},
+		{
+			"LocalEuler": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalScale": [
+				0.800000011920929,
+				0.800000011920929,
+				0.800000011920929 
+			] 
+		},
+		{
+			"LocalRotation": [
+				0,
+				0,
+				0,
+				1 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		},
+		{
+			"DimensionUnit": 0 
+		},
+		{
+			"MaterialType": 0 
+		},
+		{
+			"TextureId": "" 
+		},
+		{
+			"Color": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"ModelId": "sandboxId:\/\/PVZ_Model\/SM_Bucket\/Bucket.prefab" 
+		},
+		{
+			"Gravity": 980 
+		},
+		{
+			"Friction": 0 
+		},
+		{
+			"Restitution": 0.001000000047497451 
+		},
+		{
+			"Mass": 1000 
+		},
+		{
+			"Velocity": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"AngleVelocity": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"Size": [
+				77.19442749023438,
+				117.7012405395508,
+				86.68459320068359 
+			] 
+		},
+		{
+			"Center": [
+				0.01039695739746094,
+				10.88936996459961,
+				-5.3133544921875 
+			] 
+		},
+		{
+			"EnableGravity": false 
+		},
+		{
+			"Anchored": false 
+		},
+		{
+			"PhysXType": 1 
+		},
+		{
+			"EnablePhysics": false 
+		},
+		{
+			"CanCollide": false 
+		},
+		{
+			"CanTouch": false 
+		},
+		{
+			"CollideGroupID": 2 
+		},
+		{
+			"CullLayer": 0 
+		},
+		{
+			"IgnoreStreamSync": false 
+		},
+		{
+			"TextureMode": 0 
+		},
+		{
+			"TextureOverride": true 
+		},
+		{
+			"CastShadow": true 
+		},
+		{
+			"CanRideOn": false 
+		},
+		{
+			"DrawPhysicsCollider": false 
+		},
+		{
+			"ReceiveShadow": true 
+		},
+		{
+			"CanBePushed": false 
+		},
+		{
+			"OutlineActive": false 
+		},
+		{
+			"OutlineColorIndex": 0 
+		},
+		{
+			"Climbable": false 
+		} 
+	] 
+} 

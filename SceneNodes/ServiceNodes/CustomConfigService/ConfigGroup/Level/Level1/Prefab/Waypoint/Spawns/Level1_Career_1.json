@@ -1,0 +1,38 @@
+{
+	"ClassID": 199,
+	"ClassType": "String",
+	"NodeId": 9677370468556,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Level1_Career_1",
+	"reflex": [
+		{
+			"Name": "Level1_Career_1" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Value": "waitTime|point|zombieType|zombieHp|count|action\r\n-1|RouteCentre|NormalZombie|100|0|\r\n-1|RouteCentre2|NormalZombie|100|0|\r\n-1|RouteCentre3|NormalZombie|100|0|\r\n0|||||\"tips,僵尸即将来袭\"\r\n7|||||\"countdown,3\"\r\n3|Spawn0_1|NormalZombie|100|2|\"title,波次：1\/3\"\r\n0|Spawn1_1|NormalZombie|100|2|\r\n0|Spawn2_1|NormalZombie|100|2|\r\n0|Spawn3_1|NormalZombie|100|2|\r\n0|Spawn4_1|NormalZombie|100|2|\r\n0|Spawn5_1|NormalZombie|100|2|\r\n20|Spawn0_1|NormalZombie|100|4|\r\n0|Spawn1_1|NormalZombie|100|4|\r\n0|Spawn2_1|NormalZombie|100|4|\r\n0|Spawn3_1|NormalZombie|100|4|\r\n0|Spawn5_1|NormalZombie|100|1|\r\n0|Spawn7_1|NormalZombie|100|1|\r\n0|Spawn4_1|NormalZombie|100|2|\r\n0|Spawn1_1|NormalZombie|100|2|\r\n0|Spawn2_1|NormalZombie|100|3|\r\n0|Spawn3_1|NormalZombie|100|3|\r\n0|Spawn4_1|NormalZombie|100|6|\r\n0|Spawn5_1|NormalZombie|100|6|waitclean\r\n2|||||bonus\r\n2|||||\"tips,一大波僵尸即将来袭\"\r\n0|||||\"countdown,3\"\r\n3|Spawn0_1|NormalZombie|100|5|\"title,波次：2\/3\"\r\n0|Spawn1_1|NormalZombie|100|4|\r\n0|Spawn2_1|NormalZombie|100|6|\r\n0|Spawn3_1|NormalZombie|100|6|\r\n0|Spawn4_1|NormalZombie|100|6|\r\n0|Spawn5_1|NormalZombie|100|6|\r\n0|Spawn6_1|NormalZombie|100|5|\r\n0|Spawn7_1|NormalZombie|100|5|\r\n20|Spawn0_1|NormalZombie|100|5|\r\n0|Spawn1_1|NormalZombie|100|4|\r\n0|Spawn2_1|NormalZombie|100|5|\r\n0|Spawn3_1|NormalZombie|100|5|\r\n0|Spawn4_1|NormalZombie|100|5|\r\n0|Spawn5_1|NormalZombie|100|5|\r\n0|Spawn6_1|NormalZombie|100|5|\r\n0|Spawn7_1|NormalZombie|100|5|\r\n20|Spawn0_1|NormalZombie|100|5|\r\n0|Spawn1_1|NormalZombie|100|4|\r\n0|Spawn2_1|NormalZombie|100|8|\r\n0|Spawn3_1|NormalZombie|100|8|\r\n0|Spawn4_1|NormalZombie|100|8|\r\n0|Spawn5_1|NormalZombie|100|8|\r\n0|Spawn6_1|NormalZombie|100|5|\r\n0|Spawn7_1|NormalZombie|100|5|waitclean\r\n2|||||bonus\r\n2|||||\"tips,最后一波！\"\r\n0|||||\"countdown,3\"\r\n3|Spawn0_1|NormalZombie|100|5|\"title,波次：3\/3\"\r\n0|Spawn1_1|NormalZombie|100|4|\r\n0|Spawn2_1|NormalZombie|100|6|\r\n0|Spawn3_1|NormalZombie|100|6|\r\n0|Spawn4_1|NormalZombie|100|8|\r\n0|Spawn5_1|NormalZombie|100|8|\r\n0|Spawn6_1|NormalZombie|100|5|\r\n0|Spawn7_1|NormalZombie|100|5|\r\n20|Spawn0_1|NormalZombie|100|10|\r\n0|Spawn1_1|NormalZombie|100|10|\r\n0|Spawn2_1|NormalZombie|100|10|\r\n0|Spawn3_1|NormalZombie|100|10|\r\n0|Spawn4_1|NormalZombie|100|10|\r\n0|Spawn5_1|NormalZombie|100|10|\r\n0|Spawn6_1|NormalZombie|100|10|\r\n0|Spawn7_1|NormalZombie|100|10|\r\n20|Spawn0_1|NormalZombie|100|8|\r\n0|Spawn1_1|NormalZombie|100|8|\r\n0|Spawn2_1|NormalZombie|100|8|\r\n0|Spawn3_1|NormalZombie|100|8|\r\n0|Spawn4_1|NormalZombie|100|8|\r\n0|Spawn5_1|NormalZombie|100|8|\r\n0|Spawn6_1|NormalZombie|100|8|\r\n0|Spawn7_1|NormalZombie|100|8|waitclean\r\n" 
+		} 
+	] 
+} 

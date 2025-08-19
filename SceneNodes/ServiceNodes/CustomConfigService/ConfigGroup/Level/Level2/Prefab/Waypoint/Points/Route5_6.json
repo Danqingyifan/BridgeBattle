@@ -1,0 +1,236 @@
+{
+	"ClassID": 123,
+	"ClassType": "GeoSolid",
+	"NodeId": 9677365539818,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Route5_6",
+	"reflex": [
+		{
+			"Name": "Route5_6" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": true 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 2 
+		},
+		{
+			"Euler": [
+				1.158015402324963e-05,
+				2.218477964401245,
+				-7.618630775141355e-07 
+			] 
+		},
+		{
+			"LocalPosition": [
+				-2066.39892578125,
+				239.8621826171875,
+				-1186.162963867188 
+			] 
+		},
+		{
+			"LocalEuler": [
+				1.158015220426023e-05,
+				-87.78152465820312,
+				-7.618630775141355e-07 
+			] 
+		},
+		{
+			"LocalScale": [
+				3.000007390975952,
+				1,
+				1.000002384185791 
+			] 
+		},
+		{
+			"LocalRotation": [
+				7.743654606429118e-08,
+				-0.6932856440544128,
+				6.526926199512673e-08,
+				0.7206628918647766 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		},
+		{
+			"DimensionUnit": 0 
+		},
+		{
+			"MaterialType": 4 
+		},
+		{
+			"TextureId": "" 
+		},
+		{
+			"Color": [
+				102,
+				102,
+				255,
+				255 
+			] 
+		},
+		{
+			"ModelId": "" 
+		},
+		{
+			"Gravity": 980 
+		},
+		{
+			"Friction": 0 
+		},
+		{
+			"Restitution": 0.001000000047497451 
+		},
+		{
+			"Mass": 1000 
+		},
+		{
+			"Velocity": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"AngleVelocity": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"Size": [
+				100,
+				100,
+				100 
+			] 
+		},
+		{
+			"Center": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"EnableGravity": true 
+		},
+		{
+			"Anchored": true 
+		},
+		{
+			"PhysXType": 1 
+		},
+		{
+			"EnablePhysics": false 
+		},
+		{
+			"CanCollide": false 
+		},
+		{
+			"CanTouch": true 
+		},
+		{
+			"CollideGroupID": 2 
+		},
+		{
+			"CullLayer": 0 
+		},
+		{
+			"IgnoreStreamSync": false 
+		},
+		{
+			"TextureMode": 0 
+		},
+		{
+			"TextureOverride": true 
+		},
+		{
+			"CastShadow": true 
+		},
+		{
+			"CanRideOn": false 
+		},
+		{
+			"DrawPhysicsCollider": false 
+		},
+		{
+			"ReceiveShadow": true 
+		},
+		{
+			"CanBePushed": false 
+		},
+		{
+			"OutlineActive": false 
+		},
+		{
+			"OutlineColorIndex": 0 
+		},
+		{
+			"Climbable": false 
+		},
+		{
+			"GeoSolidShape": -1 
+		},
+		{
+			"Hollow": false 
+		},
+		{
+			"ToIntersect": false 
+		},
+		{
+			"InteractMethod": 3 
+		},
+		{
+			"SrcChildren": [
+			] 
+		},
+		{
+			"LastParentID": -1 
+		},
+		{
+			"SrcChildrenList": "" 
+		} 
+	] 
+} 

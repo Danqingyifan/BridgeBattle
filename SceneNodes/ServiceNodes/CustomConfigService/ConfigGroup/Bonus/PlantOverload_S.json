@@ -1,0 +1,41 @@
+{
+	"ClassID": 576,
+	"ClassType": "CustomConfig",
+	"NodeId": 9677365409401,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "PlantOverload_S",
+	"reflex": [
+		{
+			"Name": "PlantOverload_S" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"ClassNode": {
+				"__reflextype": "NodeLinker",
+				"sceneobjid": 9677362622097 
+			} 
+		} 
+	] 
+} 

@@ -1,0 +1,44 @@
+{
+	"ClassID": 87,
+	"ClassType": "ModuleScript",
+	"NodeId": 9677365467358,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Data",
+	"reflex": [
+		{
+			"Name": "Data" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Scriptid": 1 
+		},
+		{
+			"Mode": 1 
+		},
+		{
+			"Luafile": "" 
+		} 
+	] 
+} 

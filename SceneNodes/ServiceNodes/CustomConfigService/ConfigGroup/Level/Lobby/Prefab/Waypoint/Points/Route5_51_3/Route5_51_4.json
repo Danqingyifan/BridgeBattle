@@ -1,0 +1,38 @@
+{
+	"ClassID": 199,
+	"ClassType": "String",
+	"NodeId": 9677366772319,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Route5_51_4",
+	"reflex": [
+		{
+			"Name": "Route5_51_4" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Value": "jump" 
+		} 
+	] 
+} 

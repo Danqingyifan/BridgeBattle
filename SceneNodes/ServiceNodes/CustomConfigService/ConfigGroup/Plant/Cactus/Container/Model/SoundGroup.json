@@ -1,0 +1,35 @@
+{
+	"ClassID": 174,
+	"ClassType": "SoundGroup",
+	"NodeId": 3315204969,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "SoundGroup",
+	"reflex": [
+		{
+			"Name": "SoundGroup" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		} 
+	] 
+} 

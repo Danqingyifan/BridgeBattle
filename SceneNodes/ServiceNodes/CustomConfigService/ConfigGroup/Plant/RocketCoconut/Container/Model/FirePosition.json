@@ -1,0 +1,93 @@
+{
+	"ClassID": 116,
+	"ClassType": "BindAttachment",
+	"NodeId": 3313232984,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "FirePosition",
+	"reflex": [
+		{
+			"Name": "FirePosition" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"LocalPosition": [
+				-110.1688690185547,
+				0.3484922051429749,
+				9.688060760498047 
+			] 
+		},
+		{
+			"LocalEuler": [
+				-0,
+				-90,
+				0 
+			] 
+		},
+		{
+			"LocalScale": [
+				1.428569197654724,
+				1.428571343421936,
+				1.428569197654724 
+			] 
+		},
+		{
+			"LocalRotation": [
+				0,
+				-0.7071068286895752,
+				0,
+				0.7071068286895752 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		},
+		{
+			"BoneName": "bone01" 
+		} 
+	] 
+} 

@@ -1,0 +1,102 @@
+{
+	"ClassID": 139,
+	"ClassType": "Transform",
+	"NodeId": 9677365541208,
+	"attribute": [
+		{
+			"name": "AreaIndex",
+			"type": 1,
+			"value": 2 
+		} 
+	],
+	"flags": 0,
+	"realNodeName": "Area2",
+	"reflex": [
+		{
+			"Name": "Area2" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Euler": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalPosition": [
+				285.1077880859375,
+				4.489999771118164,
+				-1855.660034179688 
+			] 
+		},
+		{
+			"LocalEuler": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalScale": [
+				1,
+				1,
+				1 
+			] 
+		},
+		{
+			"LocalRotation": [
+				-0,
+				-0,
+				-0,
+				1 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		} 
+	] 
+} 

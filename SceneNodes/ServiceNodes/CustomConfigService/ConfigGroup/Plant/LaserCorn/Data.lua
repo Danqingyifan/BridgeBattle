@@ -1,0 +1,47 @@
+local data=
+{
+    plantType=3,
+    maxHealth=100,
+    damage=30,
+    magazine=100,
+    magazineCarry=600,
+    bulletName="CornPea",
+    bulletRange=28000,
+    bulletSpeed=140000,
+    shootConfig=
+    {
+        needCharge=true,
+        chargeTime=1,
+        releaseToFire=false,
+        chargeCooldownTime=0,
+        isLoopFire=true,
+        autoFireDis=0,
+        autoAimDis=0
+    },
+    shakeConfig=
+    {
+        easing="Linear",
+        easingStart=1,
+        easingEnd=0,
+        duration=0.05,
+        frequency=0.05,
+        strength=1,
+        rotX=0,
+        rotY=0,
+        rotZ=0,
+        posX=0,
+        posY=0,
+        posZ=0
+    },
+    fireVFXAssetID="sandboxId://PVZ_VFX/Prefab/CornLaser/CornLaser_Loop.prefab",
+    fireVFXScale=Vector3.New(2,2,2),
+    chargeVFXAssetID="sandboxId://PVZ_VFX/Prefab/CornLaser/CornLaser_Charge.prefab",
+    chargeVFXScale=Vector3.New(0.8,0.8,0.8),
+    upgradeCoefficient=
+    {
+
+    },
+    avatarIconAssetID="sandboxId://PVZ_UI/Common/Icon/Plants/Plant_S/Plants_S_0440901.png",
+    brief="发出高能激光直线穿透敌群，适合远距离扫荡密集目标。"
+}
+return data

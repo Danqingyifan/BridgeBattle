@@ -1,0 +1,38 @@
+{
+	"ClassID": 199,
+	"ClassType": "String",
+	"NodeId": 9677370468558,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Level1_Career_3",
+	"reflex": [
+		{
+			"Name": "Level1_Career_3" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Value": "waitTime|point|zombieType|zombieHp|count|action\r\n-1|RouteCentre|NormalZombie|180|0|\r\n-1|RouteCentre2|NormalZombie|180|0|\r\n-1|RouteCentre3|NormalZombie|180|0|\r\n0|||||\"tips,僵尸即将来袭\"\r\n7|||||\"countdown,3\"\r\n3|Spawn1_1|NormalZombie|180|8|\"title,波次：1\/4\"\r\n0|Spawn2_1|NormalZombie|180|8|\r\n0|Spawn3_1|NormalZombie|180|8|\r\n0|Spawn4_1|NormalZombie|180|8|\r\n0|Spawn5_1|NormalZombie|180|8|\r\n20|Spawn0_1|NormalZombie|180|8|\r\n0|Spawn1_1|NormalZombie|180|8|\r\n0|Spawn2_1|NormalZombie|180|8|\r\n0|Spawn4_1|NormalZombie|180|8|\r\n0|Spawn5_1|NormalZombie|180|8|\r\n0|Spawn7_1|BarricadeZombie|270|8|\r\n20|Spawn0_1|BarricadeZombie|270|8|\r\n0|Spawn1_1|BarricadeZombie|270|8|\r\n0|Spawn2_1|BarricadeZombie|270|8|\r\n0|Spawn3_1|BarricadeZombie|270|8|\r\n0|Spawn4_1|BarricadeZombie|270|8|\r\n0|Spawn5_1|SuperNormalZombie|2500|1|waitclean\r\n2|||||bonus\r\n2|||||\"tips,一大波僵尸即将来袭\"\r\n0|||||\"countdown,3\"\r\n3|Spawn0_1|SuperNormalZombie|2500|2|\"title,波次：2\/4\"\r\n0|Spawn0_1|NormalZombie|180|5|\r\n0|Spawn1_1|NormalZombie|180|8|\r\n0|Spawn2_1|NormalZombie|180|10|\r\n0|Spawn3_1|BarricadeZombie|270|10|\r\n0|Spawn4_1|BarricadeZombie|270|10|\r\n0|Spawn5_1|BarricadeZombie|270|10|\r\n0|Spawn6_1|BarricadeZombie|270|6|\r\n0|Spawn7_1|BarricadeZombie|270|8|\r\n20|Spawn0_1|BarricadeZombie|270|6|\r\n0|Spawn1_1|BarricadeZombie|270|10|\r\n0|Spawn2_1|NormalZombie|180|8|\r\n0|Spawn3_1|BarricadeZombie|270|8|\r\n0|Spawn4_1|NormalZombie|180|8|\r\n0|Spawn5_1|NormalZombie|180|8|\r\n0|Spawn6_1|NormalZombie|180|10|\r\n0|Spawn7_1|NormalZombie|180|10|\r\n20|Spawn0_1|NormalZombie|180|5|\r\n0|Spawn1_1|BarricadeZombie|270|10|\r\n0|Spawn2_1|NormalZombie|180|8|\r\n0|Spawn3_1|BarricadeZombie|270|8|\r\n0|Spawn4_1|NormalZombie|180|8|\r\n0|Spawn5_1|NormalZombie|180|8|\r\n0|Spawn6_1|NormalZombie|180|5|\r\n0|Spawn7_1|BarricadeZombie|270|5|waitclean\r\n2|||||bonus\r\n2|||||\"tips,一大波僵尸即将来袭\"\r\n0|||||\"countdown,3\"\r\n3|Spawn0_1|SuperNormalZombie|2500|1|\"title,波次：3\/4\"\r\n0|Spawn4_1|SuperNormalZombie|2500|3|\r\n0|Spawn0_1|BarricadeZombie|270|9|\r\n0|Spawn1_1|BarricadeZombie|270|6|\r\n0|Spawn2_1|BarricadeZombie|270|10|\r\n0|Spawn3_1|BarricadeZombie|270|10|\r\n0|Spawn4_1|BarricadeZombie|270|10|\r\n0|Spawn5_1|BarricadeZombie|270|10|\r\n0|Spawn6_1|BarricadeZombie|270|6|\r\n0|Spawn7_1|NormalZombie|180|6|\r\n20|Spawn0_1|NormalZombie|180|6|\r\n0|Spawn1_1|NormalZombie|180|6|\r\n0|Spawn2_1|NormalZombie|180|10|\r\n0|Spawn3_1|BarricadeZombie|270|10|\r\n0|Spawn4_1|BarricadeZombie|270|10|\r\n0|Spawn5_1|BarricadeZombie|270|10|\r\n0|Spawn6_1|BarricadeZombie|270|5|\r\n0|Spawn7_1|BarricadeZombie|270|5|\r\n20|Spawn0_1|BarricadeZombie|270|8|\r\n0|Spawn1_1|BarricadeZombie|270|8|\r\n0|Spawn2_1|BarricadeZombie|270|8|\r\n0|Spawn3_1|BarricadeZombie|270|8|\r\n0|Spawn4_1|BarricadeZombie|270|8|\r\n0|Spawn5_1|BarricadeZombie|270|8|\r\n0|Spawn6_1|BarricadeZombie|270|8|\r\n0|Spawn7_1|SuperNormalZombie|2500|2|waitclean\r\n2|||||bonus\r\n2|||||\"tips,最后一波！\"\r\n0|||||\"countdown,3\"\r\n3|Spawn0_1|NormalZombie|180|10|\"title,波次：4\/4\"\r\n0|Spawn1_1|NormalZombie|180|10|\r\n0|Spawn2_1|NormalZombie|180|10|\r\n0|Spawn3_1|NormalZombie|180|10|\r\n0|Spawn4_1|NormalZombie|180|10|\r\n0|Spawn5_1|NormalZombie|180|10|\r\n0|Spawn6_1|NormalZombie|180|15|\r\n0|Spawn7_1|NormalZombie|180|15|\r\n20|Spawn0_1|BarricadeZombie|270|8|\r\n0|Spawn1_1|BarricadeZombie|270|8|\r\n0|Spawn2_1|BarricadeZombie|270|10|\r\n0|Spawn3_1|BarricadeZombie|270|10|\r\n0|Spawn4_1|BarricadeZombie|270|10|\r\n0|Spawn5_1|BarricadeZombie|270|10|\r\n0|Spawn6_1|BarricadeZombie|270|5|\r\n0|Spawn7_1|BarricadeZombie|270|5|\r\n20|Spawn0_1|BarricadeZombie|270|8|\r\n0|Spawn1_1|SuperBarricadeZombie|3000|1|\r\n0|Spawn2_1|BarricadeZombie|270|10|\r\n0|Spawn3_1|BarricadeZombie|270|10|\r\n0|Spawn4_1|BarricadeZombie|270|10|\r\n0|Spawn5_1|BarricadeZombie|270|10|\r\n0|Spawn6_1|BarricadeZombie|270|5|\r\n0|Spawn7_1|SuperBarricadeZombie|3000|3|waitclean\r\n" 
+		} 
+	] 
+} 

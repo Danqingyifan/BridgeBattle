@@ -1,0 +1,4272 @@
+{
+	"ClassID": 122,
+	"ClassType": "EffectObject",
+	"NodeId": 9677361345990,
+	"attribute": [
+		{
+			"name": "assetID",
+			"type": 3,
+			"value": "" 
+		} 
+	],
+	"flags": 0,
+	"realNodeName": "ProjectileTrail",
+	"reflex": [
+		{
+			"Name": "ProjectileTrail" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Euler": [
+				0,
+				-90,
+				0 
+			] 
+		},
+		{
+			"LocalPosition": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalEuler": [
+				-0,
+				-90,
+				0 
+			] 
+		},
+		{
+			"LocalScale": [
+				1.25,
+				1.25,
+				1.25 
+			] 
+		},
+		{
+			"LocalRotation": [
+				-0,
+				-0.7071068286895752,
+				-0,
+				0.7071068286895752 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		},
+		{
+			"AssetID": "" 
+		},
+		{
+			"StartColor": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"Duration": 5 
+		},
+		{
+			"Looping": true 
+		},
+		{
+			"StartSize": [
+				100,
+				100 
+			] 
+		},
+		{
+			"Material": "" 
+		},
+		{
+			"Direction": 0 
+		},
+		{
+			"StartLifetime": [
+				5,
+				5 
+			] 
+		},
+		{
+			"StartRotation": [
+				10,
+				10 
+			] 
+		},
+		{
+			"Shape": 0 
+		},
+		{
+			"TexturePath": "" 
+		},
+		{
+			"TrailsMode": 2 
+		},
+		{
+			"TrailsTextureMode": 0 
+		},
+		{
+			"SizeAffectsWidth": true 
+		},
+		{
+			"InheritParticleColor": true 
+		},
+		{
+			"WidthOverTrails": [
+				1,
+				1 
+			] 
+		},
+		{
+			"ColorOverTrails": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"TrailsTexturePath": "" 
+		},
+		{
+			"RotationSpeed": [
+				1,
+				1 
+			] 
+		},
+		{
+			"SimulationSpeed": 1 
+		},
+		{
+			"GravityModifier": [
+				0,
+				0 
+			] 
+		},
+		{
+			"AutoDestory": false 
+		},
+		{
+			"ColorOverLifeTimeMode": 5 
+		},
+		{
+			"ColorOverLifeTimeMinColor": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"ColorOverLifeTimeMaxColor": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"ColorOverLifeTimeMinGradient": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"ColorOverLifeTimeMaxGradient": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"Prewarm": false 
+		},
+		{
+			"StartDelay": [
+				0,
+				0 
+			] 
+		},
+		{
+			"StartSpeed": [
+				500,
+				500 
+			] 
+		},
+		{
+			"SimulationSpace": 0 
+		},
+		{
+			"DeltaTime": true 
+		},
+		{
+			"ScalingMode": 1 
+		},
+		{
+			"PlayOnAwake": true 
+		},
+		{
+			"MaxParticles": 1000 
+		},
+		{
+			"AutoRandomSeed": true 
+		},
+		{
+			"RandomSeed": 0 
+		},
+		{
+			"CullingMode": 0 
+		},
+		{
+			"RingBufferMode": 0 
+		},
+		{
+			"LoopRange": [
+				0,
+				1 
+			] 
+		},
+		{
+			"ColorState": 0 
+		},
+		{
+			"StartColorGradient": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeLinear": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"TrailMaterial": "" 
+		},
+		{
+			"RateOverTime": [
+				10,
+				10 
+			] 
+		},
+		{
+			"RateOverDistance": [
+				0,
+				0 
+			] 
+		},
+		{
+			"Brust": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"EnableSizeOverLifeTime": false 
+		},
+		{
+			"OverLifeTimeSize": [
+				1,
+				1,
+				1,
+				1,
+				1,
+				1 
+			] 
+		},
+		{
+			"EnableRotationOverLifeTime": false 
+		},
+		{
+			"OverLifeTimeRotation": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"EnableUV": false 
+		},
+		{
+			"UVMode": 0 
+		},
+		{
+			"Tiles": [
+				1,
+				1 
+			] 
+		},
+		{
+			"Animation": 0 
+		},
+		{
+			"RowMode": 1 
+		},
+		{
+			"CustomRow": 0 
+		},
+		{
+			"TimeMode": 0 
+		},
+		{
+			"FrameOverTime": [
+				1,
+				1 
+			] 
+		},
+		{
+			"SpeedRange": [
+				0,
+				1 
+			] 
+		},
+		{
+			"FPS": 30 
+		},
+		{
+			"StartFrame": [
+				0,
+				0 
+			] 
+		},
+		{
+			"Cycles": 1 
+		},
+		{
+			"EnableVelocityOverLifetime": false 
+		},
+		{
+			"VelocityOverLifeTimeSpace": 0 
+		},
+		{
+			"VelocityOverLifeTimeOrbital": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeOffset": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeRadial": [
+				0,
+				0 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeSpeedModifier": [
+				1,
+				1 
+			] 
+		},
+		{
+			"EnableLimitVelocityOverLifetime": false 
+		},
+		{
+			"EnableSeparateAxes": 1 
+		},
+		{
+			"SeparateAxes": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LimitVelocityOverLifeTimeSpace": 0 
+		},
+		{
+			"LimitVelocityOverLifeTimeSpeed": [
+				100,
+				100 
+			] 
+		},
+		{
+			"LimitVelocityOverLifeTimeDampen": 0 
+		},
+		{
+			"LimitVelocityOverLifeTimeDrag": [
+				0,
+				0 
+			] 
+		},
+		{
+			"MultiplyBySize": true 
+		},
+		{
+			"MultiplyByVelocity": true 
+		},
+		{
+			"TrailsRatio": 1 
+		},
+		{
+			"TrailsLifetime": [
+				1,
+				1 
+			] 
+		},
+		{
+			"TrailsMinVertexDistance": 0.2000000029802322 
+		},
+		{
+			"TrailsWorldSpace": false 
+		},
+		{
+			"TrailsDieWithParticles": true 
+		},
+		{
+			"TrailsRibbonCount": 1 
+		},
+		{
+			"TrailsSplitSubEmitterRibbons": false 
+		},
+		{
+			"TrailsAttachRibbonsToTransform": false 
+		},
+		{
+			"TrailsSizeAffectsLifetime": false 
+		},
+		{
+			"TrailsOverLifetimeColorMode": 0 
+		},
+		{
+			"TrailsOverLifetimeColor": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"TrailsOverLifetimeGradient": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"TrailsOverMode": 0 
+		},
+		{
+			"TrailsOverGradient": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"TrailsGenerateLightingData": false 
+		},
+		{
+			"TrailsShadowBias": 0.5 
+		},
+		{
+			"TrailsAlignment": 0 
+		},
+		{
+			"EnableColorBySpeed": false 
+		},
+		{
+			"ColorBySpeedMode": 0 
+		},
+		{
+			"ColorBySpeedColor": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"ColorBySpeedGradient": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"ColorBySpeedRange": [
+				0,
+				1 
+			] 
+		},
+		{
+			"EnableSizeBySpeed": false 
+		},
+		{
+			"SizeBySpeedSeparateAxes": [
+				1,
+				1,
+				1,
+				1,
+				1,
+				1 
+			] 
+		},
+		{
+			"SizeBySpeedRange": [
+				0,
+				1 
+			] 
+		},
+		{
+			"EnableRotationBySpeed": false 
+		},
+		{
+			"RotationBySpeedSeparateAxes": [
+				0,
+				0,
+				0.7900000214576721,
+				0,
+				0,
+				0.7900000214576721 
+			] 
+		},
+		{
+			"RotationBySpeedRange": [
+				0,
+				1 
+			] 
+		},
+		{
+			"EnableNoise": false 
+		},
+		{
+			"NoiseSeparateAxes": [
+				100,
+				100,
+				100,
+				100,
+				100,
+				100 
+			] 
+		},
+		{
+			"NoiseFrequency": 0.5 
+		},
+		{
+			"NoiseScrollSpeed": [
+				1,
+				1 
+			] 
+		},
+		{
+			"NoiseDamping": true 
+		},
+		{
+			"NoiseOctaveCount": 1 
+		},
+		{
+			"NoiseOctaveMultiplier": 0.5 
+		},
+		{
+			"NoiseOctaveScale": 2 
+		},
+		{
+			"NoiseQuality": 2 
+		},
+		{
+			"NoiseRemapEnabled": false 
+		},
+		{
+			"NoiseRemap": [
+				100,
+				100,
+				100,
+				100,
+				100,
+				100 
+			] 
+		},
+		{
+			"NoisePositionAmount": [
+				1,
+				1 
+			] 
+		},
+		{
+			"NoiseRotationAmount": [
+				0,
+				0 
+			] 
+		},
+		{
+			"NoiseSizeAmount": [
+				0,
+				0 
+			] 
+		},
+		{
+			"EnableCustomData": false 
+		},
+		{
+			"CustomDataMode1": 0 
+		},
+		{
+			"CustomDataColorMode1": 0 
+		},
+		{
+			"CustomDataColor1": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"CustomDataGradient1": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"CustomDataVectorX1": [
+				0,
+				0 
+			] 
+		},
+		{
+			"CustomDataVectorY1": [
+				0,
+				0 
+			] 
+		},
+		{
+			"CustomDataVectorZ1": [
+				0,
+				0 
+			] 
+		},
+		{
+			"CustomDataVectorW1": [
+				0,
+				0 
+			] 
+		},
+		{
+			"CustomDataMode2": 0 
+		},
+		{
+			"CustomDataColorMode2": 0 
+		},
+		{
+			"CustomDataColor2": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"CustomDataGradient2": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"CustomDataVectorX2": [
+				0,
+				0 
+			] 
+		},
+		{
+			"CustomDataVectorY2": [
+				0,
+				0 
+			] 
+		},
+		{
+			"CustomDataVectorZ2": [
+				0,
+				0 
+			] 
+		},
+		{
+			"CustomDataVectorW2": [
+				0,
+				0 
+			] 
+		},
+		{
+			"EnableShape": true 
+		},
+		{
+			"ShapeType": 4 
+		},
+		{
+			"ShapeRadius": 100 
+		},
+		{
+			"ShapeRadiusMode": 0 
+		},
+		{
+			"ShapeRadiusSpread": 0 
+		},
+		{
+			"ShapeRadiusSpeed": [
+				1,
+				1 
+			] 
+		},
+		{
+			"ShapeRadiusThickness": 1 
+		},
+		{
+			"ShapeArc": 360 
+		},
+		{
+			"ShapeArcMode": 0 
+		},
+		{
+			"ShapeArcSpread": 0 
+		},
+		{
+			"ShapeArcSpeed": [
+				1,
+				1 
+			] 
+		},
+		{
+			"ShapeAngle": 25 
+		},
+		{
+			"ShapeLength": 500 
+		},
+		{
+			"ShapeConeType": 0 
+		},
+		{
+			"ShapeDonutRadius": 20 
+		},
+		{
+			"ShapeBoxType": 0 
+		},
+		{
+			"ShapeBoxThickness": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"ShapeMeshType": 1 
+		},
+		{
+			"ShapeMeshSpawnMode": 0 
+		},
+		{
+			"ShapeMeshSpawnSpread": 0 
+		},
+		{
+			"ShapeMeshSpawnSpeed": [
+				1,
+				1 
+			] 
+		},
+		{
+			"ShapeMeshResId": "" 
+		},
+		{
+			"ShapeMeshNormalOffset": 0 
+		},
+		{
+			"ShapeTextureResId": "" 
+		},
+		{
+			"ShapePositon": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"ShapeRotation": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"ShapeScale": [
+				1,
+				1,
+				1 
+			] 
+		},
+		{
+			"ShapeAlignToDirection": false 
+		},
+		{
+			"ShapeRandomDirectionAmount": 0 
+		},
+		{
+			"ShapeSphericalDirectionAmount": 0 
+		},
+		{
+			"ShapeRandomPositionAmount": 0 
+		},
+		{
+			"EnableRenderer": true 
+		},
+		{
+			"RendererMode": 0 
+		},
+		{
+			"RendererMesh1": "" 
+		},
+		{
+			"RendererMesh2": "" 
+		},
+		{
+			"RendererMesh3": "" 
+		},
+		{
+			"RendererMesh4": "" 
+		},
+		{
+			"RendererCameraScale": 0 
+		},
+		{
+			"RendererSpeedScale": 0 
+		},
+		{
+			"RendererLengthScale": 2 
+		},
+		{
+			"RendererNormalDirection": 1 
+		},
+		{
+			"RendererSortMode": 3 
+		},
+		{
+			"RendererSortingFudge": 0 
+		},
+		{
+			"RendererMinParticleSize": 0 
+		},
+		{
+			"RendererMaxParticleSize": 0.5 
+		},
+		{
+			"RendererSpace": 0 
+		},
+		{
+			"RendererFlip": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"RendererAllowRoll": true 
+		},
+		{
+			"RendererEnableGPUInstancing": true 
+		},
+		{
+			"RendererPivot": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"RendererApplyActiveColorSpace": true 
+		},
+		{
+			"RendererUseCustomVertexStreams": false 
+		},
+		{
+			"RendererCustomVertexStreams": [
+				4,
+				0,
+				1,
+				2,
+				3,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"EnableSubEmitters": false 
+		},
+		{
+			"RendererOrderInLayer": [
+				1,
+				0,
+				-1,
+				0,
+				1 
+			] 
+		},
+		{
+			"StartLifetimeState": 3 
+		},
+		{
+			"StartLifetimeCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"StartSpeedState": 3 
+		},
+		{
+			"StartSpeedCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"StartSizeState": 3 
+		},
+		{
+			"StartSizeCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"StartRotationState": 3 
+		},
+		{
+			"StartRotationCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"GravityModifierState": 3 
+		},
+		{
+			"GravityModifierCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"RateOverTimeState": 3 
+		},
+		{
+			"RateOverTimeCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"RateOverDistanceState": 3 
+		},
+		{
+			"RateOverDistanceCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"OverLifeTimeSizeState": 3 
+		},
+		{
+			"OverLifeTimeSizeXCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"OverLifeTimeSizeYCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"OverLifeTimeSizeZCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"OverLifeTimeRotationState": 3 
+		},
+		{
+			"OverLifeTimeRotationXCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"OverLifeTimeRotationYCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"OverLifeTimeRotationZCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"FrameOverTimeState": 3 
+		},
+		{
+			"FrameOverTimeCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeLinearState": 3 
+		},
+		{
+			"VelocityOverLifeTimeLinearXCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeLinearYCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeLinearZCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeOrbitalState": 3 
+		},
+		{
+			"VelocityOverLifeTimeOrbitalXCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeOrbitalYCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeOrbitalZCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeOffsetState": 3 
+		},
+		{
+			"VelocityOverLifeTimeOffsetXCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeOffsetYCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeOffsetZCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeRadialState": 3 
+		},
+		{
+			"VelocityOverLifeTimeRadialCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"VelocityOverLifeTimeSpeedModifierState": 3 
+		},
+		{
+			"VelocityOverLifeTimeSpeedModifierCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"SeparateAxesState": 3 
+		},
+		{
+			"SeparateAxesXCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"SeparateAxesYCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"SeparateAxesZCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"LimitVelocityOverLifeTimeSpeedState": 3 
+		},
+		{
+			"LimitVelocityOverLifeTimeSpeedCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"LimitVelocityOverLifeTimeDragState": 3 
+		},
+		{
+			"LimitVelocityOverLifeTimeDragCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"TrailsLifetimeState": 3 
+		},
+		{
+			"TrailsLifetimeCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"WidthOverTrailsState": 3 
+		},
+		{
+			"WidthOverTrailsCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"SizeBySpeedSeparateAxesState": 3 
+		},
+		{
+			"SizeBySpeedSeparateAxesXCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"SizeBySpeedSeparateAxesYCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"SizeBySpeedSeparateAxesZCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"RotationBySpeedSeparateAxesState": 3 
+		},
+		{
+			"RotationBySpeedSeparateAxesXCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"RotationBySpeedSeparateAxesYCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"RotationBySpeedSeparateAxesZCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"NoiseSeparateAxesState": 3 
+		},
+		{
+			"NoiseSeparateAxesXCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"NoiseSeparateAxesYCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"NoiseSeparateAxesZCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"NoiseScrollSpeedState": 3 
+		},
+		{
+			"NoiseScrollSpeedCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"NoiseRemapState": 3 
+		},
+		{
+			"NoiseRemapXCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"NoiseRemapYCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"NoiseRemapZCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"NoisePositionAmountState": 3 
+		},
+		{
+			"NoisePositionAmountCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"NoiseRotationAmountState": 3 
+		},
+		{
+			"NoiseRotationAmountCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"NoiseSizeAmountState": 3 
+		},
+		{
+			"NoiseSizeAmountCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"ShapeRadiusSpeedState": 3 
+		},
+		{
+			"ShapeRadiusSpeedCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"ShapeArcSpeedState": 3 
+		},
+		{
+			"ShapeArcSpeedCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"ShapeMeshSpawnSpeedState": 3 
+		},
+		{
+			"ShapeMeshSpawnSpeedCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"CustomDataVectorX1State": 3 
+		},
+		{
+			"CustomDataVectorX1Curve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"CustomDataVectorY1State": 3 
+		},
+		{
+			"CustomDataVectorY1Curve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"CustomDataVectorZ1State": 3 
+		},
+		{
+			"CustomDataVectorZ1Curve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"CustomDataVectorW1State": 3 
+		},
+		{
+			"CustomDataVectorW1Curve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"CustomDataVectorX2State": 3 
+		},
+		{
+			"CustomDataVectorX2Curve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"CustomDataVectorY2State": 3 
+		},
+		{
+			"CustomDataVectorY2Curve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"CustomDataVectorZ2State": 3 
+		},
+		{
+			"CustomDataVectorZ2Curve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"CustomDataVectorW2State": 3 
+		},
+		{
+			"CustomDataVectorW2Curve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"CullLayer": 0 
+		},
+		{
+			"IgnoreStreamSync": false 
+		},
+		{
+			"ChildAutoPlay": false 
+		},
+		{
+			"StartDelayState": 1 
+		},
+		{
+			"Start3DSizeSeparate": false 
+		},
+		{
+			"Start3DSizeYTwoConstant": [
+				0,
+				0 
+			] 
+		},
+		{
+			"Start3DSizeYTwoCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"Start3DSizeZTwoConstant": [
+				0,
+				0 
+			] 
+		},
+		{
+			"Start3DSizeZTwoCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"Start3DRotationSeparate": false 
+		},
+		{
+			"Start3DRotationYTwoConstant": [
+				0,
+				0 
+			] 
+		},
+		{
+			"Start3DRotationYTwoCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"Start3DRotationXTwoConstant": [
+				0,
+				0 
+			] 
+		},
+		{
+			"Start3DRotationXTwoCurve": [
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				},
+				{
+					"points": [
+					],
+					"postInfinity": 3,
+					"preInfinity": 3,
+					"rotationOrder": 3,
+					"ver": 1 
+				} 
+			] 
+		},
+		{
+			"FlipRotation": 0 
+		},
+		{
+			"StartColorQuad2": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"StartColorGradient2": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"ColorBySpeedQuad2": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"ColorBySpeedGradient2": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"EnableSizeOverLifeSeparateAxes": false 
+		},
+		{
+			"EnableSizeBySpeedSeparateAxes": false 
+		},
+		{
+			"EnableRotationOverLifeSeparateAxes": false 
+		},
+		{
+			"EnableRotationBySpeedSeparateAxes": false 
+		},
+		{
+			"EnableNoiseSeparateAxes": false 
+		},
+		{
+			"UVStartFrameState": 1 
+		},
+		{
+			"TrailsOverLifetimeQuad2": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"TrailsOverLifetimeGradient2": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"TrailsOverQuad2": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"TrailsOverGradient2": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"CustomData1ColorQuad2": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"CustomData1ColorGradient2": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		},
+		{
+			"CustomData2ColorQuad2": [
+				255,
+				255,
+				255,
+				255 
+			] 
+		},
+		{
+			"CustomData2ColorGradient2": [
+				0,
+				2,
+				2,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0,
+				255,
+				255,
+				255,
+				255,
+				0,
+				0 
+			] 
+		} 
+	] 
+} 

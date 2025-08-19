@@ -1,0 +1,44 @@
+{
+	"ClassID": 90,
+	"ClassType": "Script",
+	"NodeId": 2133286,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "ServerInit",
+	"reflex": [
+		{
+			"Name": "ServerInit" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Scriptid": 1 
+		},
+		{
+			"Mode": 1 
+		},
+		{
+			"Luafile": "" 
+		} 
+	] 
+} 

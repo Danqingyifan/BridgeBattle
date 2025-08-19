@@ -1,0 +1,37 @@
+local data=
+{
+    miniPrice=500,
+    gamePrice=50000,
+    rewardList=
+    {
+        {
+            rewardType=0,
+            rewardCardQuality=4,
+            rewardProbability=0.1,
+            rewardCardCountMin=1,
+            rewardCardCountMax=1
+        },
+        {
+            rewardType=0,
+            rewardCardQuality=3,
+            rewardProbability=2,
+            rewardCardCountMin=1,
+            rewardCardCountMax=2
+        },
+        {
+            rewardType=0,
+            rewardCardQuality=2,
+            rewardProbability=48,
+            rewardCardCountMin=1,
+            rewardCardCountMax=6
+        },
+        {
+            rewardType=0,
+            rewardCardQuality=1,
+            rewardProbability=49.9,
+            rewardCardCountMin=1,
+            rewardCardCountMax=10
+        }
+    }
+}
+return data

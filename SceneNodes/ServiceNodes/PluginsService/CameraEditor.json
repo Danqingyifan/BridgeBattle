@@ -1,0 +1,35 @@
+{
+	"ClassID": 28001,
+	"ClassType": "PluginNode",
+	"NodeId": 2258281,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "CameraEditor",
+	"reflex": [
+		{
+			"Name": "CameraEditor" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		} 
+	] 
+} 

@@ -1,0 +1,38 @@
+{
+	"ClassID": 199,
+	"ClassType": "String",
+	"NodeId": 9677365467364,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Level5_Infinite",
+	"reflex": [
+		{
+			"Name": "Level5_Infinite" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Value": "waitTime|point|zombieType|count|action\r\n0||||\"tips,僵尸即将来袭\"\r\n0||||\"countdown,3\"\r\n10|Spawn0_1|NormalZombie|10|\r\n0|Spawn1_1|NormalZombie|10|\r\n0|Spawn2_1|NormalZombie|10|\r\n0|Spawn3_1|NormalZombie|5|\r\n0|Spawn4_1|NormalZombie|15|\r\n0|Spawn5_1|NormalZombie|10|\r\n20|Spawn0_1|BarricadeZombie|5|\r\n0|Spawn1_1|BarricadeZombie|5|\r\n0|Spawn2_1|BarricadeZombie|5|\r\n0|Spawn6_1|BarricadeZombie|5|\r\n0|Spawn5_1|BarricadeZombie|5|\r\n0|Spawn7_1|BarricadeZombie|5|\r\n20|Spawn0_1|NormalZombie，BucketZombie|6|\r\n0|Spawn1_1|NormalZombie，BucketZombie|6|\r\n0|Spawn2_1|NormalZombie，BucketZombie|6|\r\n0|Spawn3_1|NormalZombie，BucketZombie|5|\r\n0|Spawn4_1|NormalZombie，BucketZombie|6|\r\n0|Spawn5_1|NormalZombie，BucketZombie|6|\r\n20|Spawn0_1|BucketZombie|6|\"tips,更多僵尸即将来袭\"\r\n0|Spawn1_1|BucketZombie|6|\r\n0|Spawn2_1|BucketZombie|6|\r\n0|Spawn5_1|BucketZombie，BarricadeZombie|20|\r\n20|Spawn6_1|NormalZombie|10|\"tips,一大波僵尸即将来袭\"\r\n0|Spawn1_1|NormalZombie|8|\"countdown,3\"\r\n0|Spawn2_1|BarricadeZombie|8|\r\n0|Spawn3_1|BucketZombie|4|\r\n0|Spawn4_1|BarricadeZombie|8|\r\n0|Spawn5_1|BucketZombie|15|\r\n0|Spawn7_1|NormalZombie|10|waitclean\r\n0||||\"tips,僵尸即将来袭\"\r\n0||||\"countdown,3\"\r\n10|Spawn0_1|BarricadeZombie|5|\r\n0|Spawn1_1|BarricadeZombie|5|\r\n0|Spawn2_1|BarricadeZombie|5|\r\n0|Spawn6_1|BarricadeZombie|5|\r\n0|Spawn5_1|BarricadeZombie|5|\r\n0|Spawn7_1|BarricadeZombie|5|\r\n20|Spawn0_1|NormalZombie，BucketZombie|6|\r\n0|Spawn1_1|NormalZombie，BucketZombie|6|\r\n0|Spawn2_1|NormalZombie，BucketZombie|6|\r\n0|Spawn3_1|NormalZombie，BucketZombie|5|\r\n0|Spawn4_1|NormalZombie，BucketZombie|6|\r\n0|Spawn5_1|NormalZombie，BucketZombie|6|\r\n20|Spawn0_1|BucketZombie|6|\"tips,更多僵尸即将来袭\"\r\n0|Spawn1_1|BucketZombie|6|\r\n0|Spawn2_1|BucketZombie|6|\r\n0|Spawn5_1|BucketZombie，BarricadeZombie|20|\r\n0|Spawn6_1|GasMaskZombie|8|\r\n0|Spawn7_1|GasMaskZombie|8|\r\n20|Spawn2_1|GasMaskZombie|8|\"tips,最后一波！\"\r\n0|Spawn3_1|BucketZombie|4|\"countdown,3\"\r\n0|Spawn4_1|BarricadeZombie，GasMaskZombie|8|\r\n0|Spawn5_1|BucketZombie，GasMaskZombie|15|\r\n0|Spawn7_1|NormalZombie|10|\r\n0|Spawn5_1|Boss|2|\r\n0|Spawn2_1|Boss|2|\r\n0|Spawn1_1|Boss|2|\r\n0|Spawn6_1|Boss|1|waitclean\r\n" 
+		} 
+	] 
+} 

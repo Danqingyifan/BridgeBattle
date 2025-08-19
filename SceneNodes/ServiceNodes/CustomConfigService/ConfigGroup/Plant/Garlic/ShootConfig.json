@@ -1,0 +1,38 @@
+{
+	"ClassID": 199,
+	"ClassType": "String",
+	"NodeId": 9677368076151,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "ShootConfig",
+	"reflex": [
+		{
+			"Name": "ShootConfig" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Value": "﻿level\tdamage\tfireInterval\tfireDelay\treloadTime\tmagazine\tmagazineCarry\tbulletRange\tbulletSpeed\tverticalRecoil\tverticalRecoilMax\tverticalRecoilProportion\thorizontalRecoil\thorizontalRecoilMax\thorizontalRecoilProportion\tspreadRadius\tspreadRadiusMax\tspreadRadiusCorrect\n1\t150\t1\t0.5\t2\t1\t25\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n2\t160\t1\t0.5\t2\t1\t26\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n3\t170\t1\t0.5\t2\t1\t27\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n4\t180\t1\t0.5\t2\t1\t28\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n5\t190\t1\t0.5\t2\t1\t29\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n6\t200\t1\t0.5\t2\t1\t30\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n7\t215\t1\t0.5\t2\t1\t31\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n8\t230\t1\t0.5\t2\t1\t32\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n9\t245\t1\t0.5\t2\t2\t34\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n10\t260\t1\t0.5\t2\t2\t36\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n11\t285\t1\t0.5\t2\t2\t38\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n12\t310\t1\t0.5\t2\t2\t40\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n13\t335\t1\t0.5\t2\t2\t42\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n14\t370\t1\t0.5\t2\t2\t44\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n15\t410\t1\t0.5\t2\t2\t46\t10000\t4000\t0\t0\t1\t0\t0\t1\t0\t0\t0\n" 
+		} 
+	] 
+} 

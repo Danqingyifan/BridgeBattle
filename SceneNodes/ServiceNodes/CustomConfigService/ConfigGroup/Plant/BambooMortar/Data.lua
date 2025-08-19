@@ -1,0 +1,44 @@
+local data=
+{
+    plantType=2,
+    maxHealth=100,
+    damage=600,
+    magazine=1,
+    magazineCarry=12,
+    bulletName="MortarPea",
+    bulletRange=20000,
+    bulletSpeed=2000,
+    shootConfig=
+    {
+        needCharge=false,
+        isLoopFire=false,
+        autoFireDis=0,
+        autoAimDis=0
+    },
+    shakeConfig=
+    {
+        easing="Linear",
+        easingStart=1,
+        easingEnd=0,
+        duration=0.05,
+        frequency=0.05,
+        strength=1,
+        rotX=0,
+        rotY=0,
+        rotZ=0,
+        posX=0,
+        posY=0,
+        posZ=0
+    },
+    fireVFXAssetID="sandboxId://PVZ_VFX/Prefab/MortarPea/MortarPea_Fire.prefab",
+    fireVFXScale=Vector3.New(1,1,1),
+    chargeVFXAssetID="",
+    chargeVFXScale=Vector3.New(1,1,1),
+    upgradeCoefficient=
+    {
+
+    },
+    avatarIconAssetID="sandboxId://PVZ_UI/Common/Icon/Plants/Plant_S/Plants_S_0441301.png",
+    brief="高伤远射的战略利器，但需预判落点，擅长清除后排敌人。"
+}
+return data

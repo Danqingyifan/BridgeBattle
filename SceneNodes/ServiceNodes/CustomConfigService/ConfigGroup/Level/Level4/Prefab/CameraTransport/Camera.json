@@ -1,0 +1,97 @@
+{
+	"ClassID": 139,
+	"ClassType": "Transform",
+	"NodeId": 9677365541146,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Camera",
+	"reflex": [
+		{
+			"Name": "Camera" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Euler": [
+				12.51621723175049,
+				-37.0014762878418,
+				4.372787998363492e-07 
+			] 
+		},
+		{
+			"LocalPosition": [
+				3046.6142578125,
+				295.4409790039062,
+				645.095703125 
+			] 
+		},
+		{
+			"LocalEuler": [
+				12.51621627807617,
+				-127.0014801025391,
+				4.372788851014775e-07 
+			] 
+		},
+		{
+			"LocalScale": [
+				1,
+				1,
+				1 
+			] 
+		},
+		{
+			"LocalRotation": [
+				0.04863765835762024,
+				-0.8896071314811707,
+				0.09755522012710571,
+				0.4435274004936218 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		} 
+	] 
+} 

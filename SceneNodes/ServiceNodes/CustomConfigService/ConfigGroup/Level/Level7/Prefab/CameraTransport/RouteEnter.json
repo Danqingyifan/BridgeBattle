@@ -1,0 +1,97 @@
+{
+	"ClassID": 139,
+	"ClassType": "Transform",
+	"NodeId": 9677365467278,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "RouteEnter",
+	"reflex": [
+		{
+			"Name": "RouteEnter" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Euler": [
+				-0,
+				11,
+				-0 
+			] 
+		},
+		{
+			"LocalPosition": [
+				0,
+				-167.8677215576172,
+				0 
+			] 
+		},
+		{
+			"LocalEuler": [
+				-0,
+				-79.00000762939453,
+				0 
+			] 
+		},
+		{
+			"LocalScale": [
+				1,
+				1,
+				1 
+			] 
+		},
+		{
+			"LocalRotation": [
+				-0,
+				-0.6360782980918884,
+				-0,
+				0.7716245651245117 
+			] 
+		},
+		{
+			"Visible": false 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		} 
+	] 
+} 

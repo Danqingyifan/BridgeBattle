@@ -1,0 +1,38 @@
+{
+	"ClassID": 199,
+	"ClassType": "String",
+	"NodeId": 9677368076154,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "ShootConfig",
+	"reflex": [
+		{
+			"Name": "ShootConfig" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Value": "﻿level\tdamage\tfireInterval\tfireDelay\treloadTime\tmagazine\tmagazineCarry\tbulletRange\tbulletSpeed\tverticalRecoil\tverticalRecoilMax\tverticalRecoilProportion\thorizontalRecoil\thorizontalRecoilMax\thorizontalRecoilProportion\tspreadRadius\tspreadRadiusMax\tspreadRadiusCorrect\n1\t80\t0.08\t0\t3\t100\t600\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n2\t85\t0.08\t0\t3\t110\t620\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n3\t90\t0.08\t0\t3\t120\t640\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n4\t95\t0.08\t0\t3\t130\t660\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n5\t100\t0.08\t0\t3\t140\t680\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n6\t107\t0.07\t0\t3\t150\t700\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n7\t114\t0.07\t0\t3\t160\t720\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n8\t121\t0.07\t0\t3\t170\t740\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n9\t128\t0.07\t0\t3\t180\t760\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n10\t135\t0.07\t0\t3\t190\t780\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n11\t145\t0.06\t0\t3\t200\t800\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n12\t155\t0.06\t0\t3\t210\t820\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n13\t165\t0.06\t0\t3\t220\t840\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n14\t175\t0.06\t0\t3\t230\t860\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n15\t185\t0.06\t0\t3\t240\t880\t8000\t10000\t0.5\t2\t0.4\t0.6\t3\t0.5\t0\t0.54\t0.106\n" 
+		} 
+	] 
+} 

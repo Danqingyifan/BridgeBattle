@@ -1,0 +1,35 @@
+local data=
+{
+    bulletType=1,
+    bulletEffect=0,
+    explosionRange=Vector3.New(300,300,300),
+    shakeConfig=
+    {
+        easing="Linear",
+        easingStart=1,
+        easingEnd=0,
+        duration=0.05,
+        frequency=0.05,
+        strength=1,
+        rotX=20,
+        rotY=20,
+        rotZ=0,
+        posX=0,
+        posY=0,
+        posZ=0
+    },
+    hasDerive=false,
+    trailVFXAssetID="sandboxId://PVZ_VFX/Prefab/ElectricityPea/ElectricityPea_Trail.prefab",
+    trailVFXScale=Vector3.New(2,2,2),
+    hitVFXAssetID="sandboxId://PVZ_VFX/Prefab/ElectricityPea/ElectricityPea_Hit.prefab",
+    hitVFXScale=Vector3.New(2,2,2),
+    hitGroundVFXAssetID="sandboxId://PVZ_VFX/Prefab/ElectricityPea/ElectricityPea_Hit.prefab",
+    hitGroundVFXScale=Vector3.New(2,2,2),
+    hitSoundAssetID="sandboxId://PVZ_AU/ElectricityPeaShooter/ElectricityPeaShooter_hit.mp3",
+    hitSoundAssetVolume=1,
+    hitGroundSoundAssetID="sandboxId://PVZ_AU/ElectricityPeaShooter/ElectricityPeaShooter_hit.mp3",
+    hitGroundSoundAssetVolume=1,
+    parabolaSign=false,
+    parabolaMaxDeg=0
+}
+return data

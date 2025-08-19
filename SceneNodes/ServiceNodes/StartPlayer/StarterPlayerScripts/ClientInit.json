@@ -1,0 +1,44 @@
+{
+	"ClassID": 85,
+	"ClassType": "LocalScript",
+	"NodeId": 22014,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "ClientInit",
+	"reflex": [
+		{
+			"Name": "ClientInit" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Scriptid": 1 
+		},
+		{
+			"Mode": 1 
+		},
+		{
+			"Luafile": "" 
+		} 
+	] 
+} 

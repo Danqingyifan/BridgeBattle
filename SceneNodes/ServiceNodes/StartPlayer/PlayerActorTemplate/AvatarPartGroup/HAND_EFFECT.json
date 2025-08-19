@@ -1,0 +1,53 @@
+{
+	"ClassID": 563,
+	"ClassType": "AvatarPart",
+	"NodeId": 11030,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "HAND_EFFECT",
+	"reflex": [
+		{
+			"Name": "HAND_EFFECT" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"PartType": 16 
+		},
+		{
+			"ModelResId": "" 
+		},
+		{
+			"DiffuseTexResId": "" 
+		},
+		{
+			"EmissiveTexResId": "" 
+		},
+		{
+			"Show": true 
+		},
+		{
+			"ModelId": -1 
+		} 
+	] 
+} 

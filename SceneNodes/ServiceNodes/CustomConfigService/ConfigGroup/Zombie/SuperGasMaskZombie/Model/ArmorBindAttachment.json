@@ -1,0 +1,93 @@
+{
+	"ClassID": 116,
+	"ClassType": "BindAttachment",
+	"NodeId": 9677364173673,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "ArmorBindAttachment",
+	"reflex": [
+		{
+			"Name": "ArmorBindAttachment" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"LocalPosition": [
+				-1803.470947265625,
+				903.2332153320312,
+				128.6139831542969 
+			] 
+		},
+		{
+			"LocalEuler": [
+				173,
+				103,
+				0 
+			] 
+		},
+		{
+			"LocalScale": [
+				1,
+				1,
+				1 
+			] 
+		},
+		{
+			"LocalRotation": [
+				0.6213535666465759,
+				0.04777706041932106,
+				-0.7811484336853027,
+				0.0380035899579525 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		},
+		{
+			"BoneName": "Bip001 Head" 
+		} 
+	] 
+} 

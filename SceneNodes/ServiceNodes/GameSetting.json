@@ -1,0 +1,201 @@
+{
+	"ClassID": 190,
+	"ClassType": "GameSetting",
+	"NodeId": 46,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "GameSetting",
+	"reflex": [
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 2 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"GameStartMode": 0 
+		},
+		{
+			"CanCunIn": true 
+		},
+		{
+			"CountDown": 3 
+		},
+		{
+			"NeedPlayerCount": 1 
+		},
+		{
+			"BackgroundMusicIndex": 9 
+		},
+		{
+			"AppID": "0" 
+		},
+		{
+			"AppKey": "" 
+		},
+		{
+			"HideCursor": false 
+		},
+		{
+			"Shadow": 1 
+		},
+		{
+			"WaterReflected": 0 
+		},
+		{
+			"GamePlayMode": 0 
+		},
+		{
+			"ToolActiveMode": 1 
+		},
+		{
+			"LAYER1": 10000 
+		},
+		{
+			"LAYER2": 100000 
+		},
+		{
+			"LAYER3": 1000000 
+		},
+		{
+			"LAYER4": 10000000 
+		},
+		{
+			"LAYER5": 100000000 
+		},
+		{
+			"SyncStream": true 
+		},
+		{
+			"MusicOpen": true 
+		},
+		{
+			"ShowAssetLoading": true 
+		},
+		{
+			"SafeSyncMode": true 
+		},
+		{
+			"ViewRange": 0 
+		},
+		{
+			"UseMnSkin": true 
+		},
+		{
+			"Sensitivity": 1 
+		},
+		{
+			"AvatarPolicy": "{\"A\":[{\"K\":0,\"V\":[1,2,4,3,6,4 ] } ] } " 
+		},
+		{
+			"WithoutCharacter": false 
+		},
+		{
+			"CameraCollide": true 
+		},
+		{
+			"LoadingCustomPartTime": 60000 
+		},
+		{
+			"Sceneids": [
+				0,
+				100,
+				101 
+			] 
+		},
+		{
+			"CameraLookFocus": [
+				[
+					0,
+					-0,
+					0 
+				],
+				[
+					0,
+					0,
+					0 
+				],
+				[
+					0,
+					0,
+					0 
+				] 
+			] 
+		},
+		{
+			"CameraFieldOfView": [
+				50,
+				75,
+				75 
+			] 
+		},
+		{
+			"CameraNear": [
+				5,
+				5,
+				5 
+			] 
+		},
+		{
+			"CameraFar": [
+				3000000,
+				100000,
+				30000 
+			] 
+		},
+		{
+			"StartScene": 0 
+		},
+		{
+			"LightActor": true 
+		},
+		{
+			"CameraOrthographicSize": [
+				3.599999904632568,
+				3.599999904632568,
+				3.599999904632568 
+			] 
+		},
+		{
+			"PhysicsFrames": 0 
+		},
+		{
+			"PlayerIgnoreStream": true 
+		},
+		{
+			"CreateMapVersion": 0 
+		},
+		{
+			"ComputeActorInteractions": false 
+		},
+		{
+			"AvoidInteractionsSpeedFactor": 1 
+		},
+		{
+			"OutlineColors": [
+			] 
+		},
+		{
+			"OutlineThickness": 1 
+		},
+		{
+			"DynamicBatching": true 
+		} 
+	] 
+} 

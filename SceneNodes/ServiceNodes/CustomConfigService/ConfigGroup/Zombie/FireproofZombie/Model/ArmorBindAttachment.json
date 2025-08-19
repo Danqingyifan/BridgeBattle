@@ -1,0 +1,93 @@
+{
+	"ClassID": 116,
+	"ClassType": "BindAttachment",
+	"NodeId": 9677361990758,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "ArmorBindAttachment",
+	"reflex": [
+		{
+			"Name": "ArmorBindAttachment" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"LocalPosition": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalEuler": [
+				-0,
+				1.001791224553017e-05,
+				0 
+			] 
+		},
+		{
+			"LocalScale": [
+				1,
+				1,
+				1 
+			] 
+		},
+		{
+			"LocalRotation": [
+				-0,
+				-8.742277657347586e-08,
+				-0,
+				-1 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		},
+		{
+			"BoneName": "" 
+		} 
+	] 
+} 

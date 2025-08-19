@@ -1,0 +1,44 @@
+{
+	"ClassID": 85,
+	"ClassType": "LocalScript",
+	"NodeId": 3500869,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "FirstMaskLocalScript",
+	"reflex": [
+		{
+			"Name": "FirstMaskLocalScript" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Scriptid": 1 
+		},
+		{
+			"Mode": 1 
+		},
+		{
+			"Luafile": "" 
+		} 
+	] 
+} 

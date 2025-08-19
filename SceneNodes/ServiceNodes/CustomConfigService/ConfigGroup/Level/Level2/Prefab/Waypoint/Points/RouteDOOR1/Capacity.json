@@ -1,0 +1,38 @@
+{
+	"ClassID": 196,
+	"ClassType": "Int",
+	"NodeId": 9677365539804,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Capacity",
+	"reflex": [
+		{
+			"Name": "Capacity" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Value": 10 
+		} 
+	] 
+} 

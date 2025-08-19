@@ -1,0 +1,152 @@
+{
+	"ClassID": 126,
+	"ClassType": "SkyLight",
+	"NodeId": 11073,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "SkyLight",
+	"reflex": [
+		{
+			"Name": "SkyLight" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Euler": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalPosition": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalEuler": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
+			"LocalScale": [
+				1,
+				1,
+				1 
+			] 
+		},
+		{
+			"LocalRotation": [
+				0,
+				0,
+				0,
+				1 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		},
+		{
+			"SkyLightType": 2 
+		},
+		{
+			"SkyLightTexture": "sandboxId:\/\/Map_Scenes\/HDRI\/FK_1005_HDR.png" 
+		},
+		{
+			"CubeAssetID": "sandboxId:\/\/Map_Scenes\/HDRI\/FK_1005_HDR.png" 
+		},
+		{
+			"Intensity": 0.75 
+		},
+		{
+			"Color": [
+				178,
+				214,
+				206,
+				255 
+			] 
+		},
+		{
+			"BlendAmount": 1 
+		},
+		{
+			"AmbientSkyColor": [
+				191,
+				194,
+				171,
+				255 
+			] 
+		},
+		{
+			"AmbientEquatorColor": [
+				169,
+				148,
+				172,
+				255 
+			] 
+		},
+		{
+			"AmbientGroundColor": [
+				78,
+				94,
+				102,
+				255 
+			] 
+		},
+		{
+			"AmbientColor": [
+				130,
+				133,
+				140,
+				255 
+			] 
+		} 
+	] 
+} 

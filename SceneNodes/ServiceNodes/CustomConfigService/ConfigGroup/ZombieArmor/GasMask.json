@@ -1,0 +1,41 @@
+{
+	"ClassID": 576,
+	"ClassType": "CustomConfig",
+	"NodeId": 3314200064,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "GasMask",
+	"reflex": [
+		{
+			"Name": "GasMask" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"ClassNode": {
+				"__reflextype": "NodeLinker",
+				"sceneobjid": 3313832973 
+			} 
+		} 
+	] 
+} 

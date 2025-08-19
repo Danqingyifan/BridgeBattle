@@ -1,0 +1,47 @@
+local data=
+{
+    plantType=2,
+    maxHealth=100,
+    damage=450,
+    magazine=1,
+    magazineCarry=40,
+    bulletName="ElectricityPea",
+    bulletRange=10000,
+    bulletSpeed=8500,
+    shootConfig=
+    {
+        needCharge=true,
+        chargeTime=5,
+        releaseToFire=true,
+        chargeCooldownTime=1,
+        isLoopFire=false,
+        autoFireDis=0,
+        autoAimDis=0
+    },
+    shakeConfig=
+    {
+        easing="Linear",
+        easingStart=1,
+        easingEnd=0,
+        duration=0.05,
+        frequency=0.05,
+        strength=1,
+        rotX=0,
+        rotY=0,
+        rotZ=0,
+        posX=0,
+        posY=0,
+        posZ=0
+    },
+    fireVFXAssetID="sandboxId://PVZ_VFX/Prefab/ElectricityPea/ElectricityPea_FireEffect.prefab",
+    fireVFXScale=Vector3.New(1,1,1),
+    chargeVFXAssetID="sandboxId://PVZ_VFX/Prefab/ElectricityPea/ElectricityPea_Charge.prefab",
+    chargeVFXScale=Vector3.New(1,1,1),
+    upgradeCoefficient=
+    {
+
+    },
+    avatarIconAssetID="sandboxId://PVZ_UI/Common/Icon/Plants/Plant_S/Plants_S_0441001.png",
+    brief="充能后发射电磁能球，精准致命，科技感十足的高伤远程炮台。"
+}
+return data

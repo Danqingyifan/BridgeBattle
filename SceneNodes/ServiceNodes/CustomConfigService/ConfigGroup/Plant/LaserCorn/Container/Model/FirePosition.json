@@ -1,0 +1,97 @@
+{
+	"ClassID": 139,
+	"ClassType": "Transform",
+	"NodeId": 9677365961111,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "FirePosition",
+	"reflex": [
+		{
+			"Name": "FirePosition" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Euler": [
+				0,
+				90,
+				0 
+			] 
+		},
+		{
+			"LocalPosition": [
+				-71.67009735107422,
+				-8.266079902648926,
+				-0.5589330196380615 
+			] 
+		},
+		{
+			"LocalEuler": [
+				-0,
+				90,
+				-0 
+			] 
+		},
+		{
+			"LocalScale": [
+				1.428570508956909,
+				1.428571343421936,
+				1.428570508956909 
+			] 
+		},
+		{
+			"LocalRotation": [
+				-0,
+				0.7071068286895752,
+				-0,
+				0.7071068286895752 
+			] 
+		},
+		{
+			"Visible": true 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		} 
+	] 
+} 

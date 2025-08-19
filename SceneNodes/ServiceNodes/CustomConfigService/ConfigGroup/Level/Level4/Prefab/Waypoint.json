@@ -1,0 +1,97 @@
+{
+	"ClassID": 139,
+	"ClassType": "Transform",
+	"NodeId": 9677365540979,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Waypoint",
+	"reflex": [
+		{
+			"Name": "Waypoint" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Euler": [
+				-0,
+				202,
+				-0 
+			] 
+		},
+		{
+			"LocalPosition": [
+				-2037.729248046875,
+				0,
+				-102.3501129150391 
+			] 
+		},
+		{
+			"LocalEuler": [
+				0,
+				-158,
+				0 
+			] 
+		},
+		{
+			"LocalScale": [
+				1.00000536441803,
+				1,
+				1.00000536441803 
+			] 
+		},
+		{
+			"LocalRotation": [
+				-0,
+				0.9816272258758545,
+				-0,
+				-0.190809041261673 
+			] 
+		},
+		{
+			"Visible": false 
+		},
+		{
+			"CubeBorderEnable": false 
+		},
+		{
+			"CubeBorderColor": [
+				135,
+				206,
+				250,
+				255 
+			] 
+		},
+		{
+			"Layer": 0 
+		},
+		{
+			"LayerCoverChild": true 
+		},
+		{
+			"InheritParentVisible": true 
+		},
+		{
+			"Locked": false 
+		} 
+	] 
+} 

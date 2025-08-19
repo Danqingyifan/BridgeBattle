@@ -1,0 +1,44 @@
+{
+	"ClassID": 90,
+	"ClassType": "Script",
+	"NodeId": 2427753,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "WaypointEditorScript",
+	"reflex": [
+		{
+			"Name": "WaypointEditorScript" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Scriptid": 1 
+		},
+		{
+			"Mode": 1 
+		},
+		{
+			"Luafile": "" 
+		} 
+	] 
+} 

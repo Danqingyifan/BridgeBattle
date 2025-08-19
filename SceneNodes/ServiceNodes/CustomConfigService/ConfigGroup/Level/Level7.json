@@ -1,0 +1,41 @@
+{
+	"ClassID": 576,
+	"ClassType": "CustomConfig",
+	"NodeId": 9677365467108,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Level7",
+	"reflex": [
+		{
+			"Name": "Level7" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"ClassNode": {
+				"__reflextype": "NodeLinker",
+				"sceneobjid": 3312803498 
+			} 
+		} 
+	] 
+} 

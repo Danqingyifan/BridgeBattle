@@ -1,0 +1,55 @@
+{
+	"ClassID": 527,
+	"ClassType": "Atmosphere",
+	"NodeId": 11074,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Atmosphere",
+	"reflex": [
+		{
+			"Name": "Atmosphere" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"FogType": 2 
+		},
+		{
+			"FogColor": [
+				69,
+				86,
+				74,
+				255 
+			] 
+		},
+		{
+			"FogStart": 300 
+		},
+		{
+			"FogEnd": 4600 
+		},
+		{
+			"FogOffset": 0.800000011920929 
+		} 
+	] 
+} 

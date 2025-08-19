@@ -1,0 +1,38 @@
+{
+	"ClassID": 199,
+	"ClassType": "String",
+	"NodeId": 9677366772276,
+	"attribute": [
+	],
+	"flags": 0,
+	"realNodeName": "Level3_Infinite",
+	"reflex": [
+		{
+			"Name": "Level3_Infinite" 
+		},
+		{
+			"Tag": 0 
+		},
+		{
+			"Enabled": true 
+		},
+		{
+			"SyncMode": 0 
+		},
+		{
+			"LocalSyncFlag": 0 
+		},
+		{
+			"ResourceDynamicLoad": false 
+		},
+		{
+			"IgnoreSafeMode": false 
+		},
+		{
+			"ResourceLoadMode": 0 
+		},
+		{
+			"Value": "waitTime|point|zombieType|zombieHp|count|action\r\n0|||||\"tips,僵尸即将来袭\"\r\n7|||||\"countdown,3\"\r\n3|Spawn0_1|NormalZombie|120|4|\"title,无尽模式\"\r\n0|Spawn1_1|NormalZombie|120|4|\r\n0|Spawn2_1|NormalZombie|120|4|\r\n0|Spawn3_1|NormalZombie|120|4|\r\n0|Spawn4_1|NormalZombie|120|4|\r\n0|Spawn5_1|NormalZombie|120|4|\r\n20|Spawn0_1|BarricadeZombie|180|5|\r\n0|Spawn1_1|BarricadeZombie|180|5|\r\n0|Spawn2_1|BarricadeZombie|180|5|\r\n0|Spawn4_1|BarricadeZombie|180|5|\r\n0|Spawn5_1|BarricadeZombie|180|5|\r\n0|Spawn7_1|BarricadeZombie|180|5|\r\n20|Spawn0_1|BucketZombie|360|5|\r\n0|Spawn1_1|BucketZombie|360|5|\r\n0|Spawn2_1|BucketZombie|360|5|\r\n0|Spawn3_1|BucketZombie|360|5|\r\n0|Spawn4_1|BucketZombie|360|5|\r\n0|Spawn5_1|BucketZombie|360|5|waitclean\r\n0|||||bonus\r\n20|||||\"tips,更多僵尸即将来袭\"\r\n0|||||\"countdown,3\"\r\n3|Spawn0_1|BarricadeZombie|180|5|\"title,无尽模式\"\r\n0|Spawn1_1|NormalZombie|120|3|\r\n0|Spawn2_1|BarricadeZombie|180|5|\r\n0|Spawn3_1|NormalZombie|120|5|\r\n0|Spawn4_1|GasMaskZombie|180|5|\r\n0|Spawn5_1|NormalZombie|120|5|\r\n0|Spawn6_1|NormalZombie|120|5|\r\n0|Spawn7_1|NormalZombie|120|5|\r\n20|Spawn6_1|GasMaskZombie|180|4|\r\n0|Spawn1_1|NormalZombie|120|8|\r\n0|Spawn2_1|BarricadeZombie|180|8|\r\n0|Spawn3_1|BucketZombie|360|8|\r\n0|Spawn4_1|GasMaskZombie|180|8|\r\n0|Spawn5_1|NormalZombie|120|8|\r\n0|Spawn7_1|NormalZombie|120|5|waitclean\r\n0|||||bonus\r\n20|||||\"tips,僵尸即将来袭\"\r\n0|||||\"countdown,3\"\r\n3|Spawn0_1|NormalZombie|120|4|\"title,无尽模式\"\r\n0|Spawn1_1|NormalZombie|120|4|\r\n0|Spawn2_1|NormalZombie|120|4|\r\n0|Spawn3_1|NormalZombie|120|4|\r\n0|Spawn4_1|NormalZombie|120|4|\r\n0|Spawn5_1|NormalZombie|120|4|\r\n20|Spawn0_1|BarricadeZombie|180|5|\r\n0|Spawn1_1|GasMaskZombie|180|5|\r\n0|Spawn2_1|BarricadeZombie|180|5|\r\n0|Spawn4_1|GasMaskZombie|180|5|\r\n0|Spawn5_1|BarricadeZombie|180|5|\r\n0|Spawn7_1|GasMaskZombie|180|5|\r\n20|Spawn0_1|BarricadeZombie|180|5|\r\n0|Spawn1_1|BarricadeZombie|180|5|\r\n0|Spawn2_1|GasMaskZombie|180|5|\r\n0|Spawn3_1|BarricadeZombie|180|5|\r\n0|Spawn4_1|BucketZombie|360|5|\r\n0|Spawn5_1|BucketZombie|360|5|\r\n20|Spawn0_1|BarricadeZombie|180|3|\r\n0|Spawn1_1|NormalZombie|120|3|\r\n0|Spawn2_1|GasMaskZombie|180|5|\r\n0|Spawn3_1|NormalZombie|120|5|\r\n0|Spawn4_1|BucketZombie|360|5|\r\n0|Spawn5_1|NormalZombie|120|5|\r\n0|Spawn6_1|NormalZombie|120|5|\r\n0|Spawn7_1|NormalZombie|120|5|waitclean\r\n0|||||bonus\r\n20|||||\"tips,一大波僵尸即将来袭\"\r\n0|||||\"countdown,3\"\r\n3|Spawn1_1|NormalZombie|120|8|\"title,无尽模式\"\r\n0|Spawn2_1|BarricadeZombie|180|8|\r\n0|Spawn3_1|BucketZombie|360|8|\r\n0|Spawn4_1|BarricadeZombie|180|8|\r\n0|Spawn5_1|NormalZombie|120|8|\r\n0|Spawn7_1|NormalZombie|120|5|\r\n10|Spawn0_1|NormalZombie|120|4|\r\n0|Spawn1_1|NormalZombie|120|4|\r\n0|Spawn2_1|NormalZombie|120|4|\r\n0|Spawn3_1|NormalZombie|120|4|\r\n0|Spawn4_1|BucketZombie|360|4|\r\n0|Spawn5_1|BucketZombie|360|4|\r\n20|Spawn0_1|BucketZombie|360|5|\r\n0|Spawn1_1|BucketZombie|360|5|\r\n0|Spawn2_1|BucketZombie|360|5|\r\n0|Spawn4_1|NormalZombie|120|5|\r\n0|Spawn5_1|NormalZombie|120|5|\r\n0|Spawn7_1|NormalZombie|120|5|\r\n20|Spawn0_1|BucketZombie|360|5|\r\n0|Spawn1_1|BucketZombie|360|5|\r\n0|Spawn2_1|BucketZombie|360|5|\r\n0|Spawn3_1|BucketZombie|360|5|\r\n0|Spawn4_1|GasMaskZombie|180|5|\r\n0|Spawn5_1|GasMaskZombie|180|5|\r\n0|Spawn6_1|NormalZombie|120|8|waitclean\r\n0|||||bonus\r\n20|||||\"tips,更多僵尸即将来袭\"\r\n0|||||\"countdown,3\"\r\n3|Spawn0_1|BarricadeZombie|180|3|\"title,无尽模式\"\r\n0|Spawn1_1|BucketZombie|360|3|\r\n0|Spawn2_1|BarricadeZombie|180|5|\r\n0|Spawn3_1|BucketZombie|360|5|\r\n0|Spawn4_1|BarricadeZombie|180|5|\r\n0|Spawn5_1|NormalZombie|120|5|\r\n0|Spawn6_1|NormalZombie|120|5|\r\n0|Spawn7_1|BucketZombie|360|5|\r\n20|Spawn6_1|BucketZombie|360|4|\r\n0|Spawn1_1|NormalZombie|120|8|\r\n0|Spawn2_1|BarricadeZombie|180|8|\r\n0|Spawn3_1|BucketZombie|360|8|\r\n0|Spawn4_1|GasMaskZombie|180|8|\r\n0|Spawn5_1|NormalZombie|120|8|\r\n0|Spawn7_1|GasMaskZombie|180|8|waitclean\r\n" 
+		} 
+	] 
+} 
