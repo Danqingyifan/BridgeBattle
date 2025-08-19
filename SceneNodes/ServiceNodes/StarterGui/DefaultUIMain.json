@@ -32,7 +32,7 @@
 			"ResourceLoadMode": 0 
 		},
 		{
-			"Visible": false 
+			"Visible": true 
 		},
 		{
 			"RenderIndex": 999 

@@ -1,14 +1,14 @@
 {
 	"ClassID": 87,
 	"ClassType": "ModuleScript",
-	"NodeId": 9677362831020,
+	"NodeId": 9677384364316,
 	"attribute": [
 	],
 	"flags": 0,
-	"realNodeName": "CardModule",
+	"realNodeName": "MapManager",
 	"reflex": [
 		{
-			"Name": "CardModule" 
+			"Name": "MapManager" 
 		},
 		{
 			"Tag": 0 

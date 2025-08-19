@@ -1,14 +1,14 @@
 {
-	"ClassID": 114,
-	"ClassType": "Actor",
-	"NodeId": 11012,
+	"ClassID": 128,
+	"ClassType": "Model",
+	"NodeId": 9677384364721,
 	"attribute": [
 	],
 	"flags": 0,
-	"realNodeName": "PlayerActorTemplate",
+	"realNodeName": "Block",
 	"reflex": [
 		{
-			"Name": "PlayerActorTemplate" 
+			"Name": "Block" 
 		},
 		{
 			"Tag": 0 
@@ -41,13 +41,13 @@
 		{
 			"LocalPosition": [
 				0,
-				0,
+				200,
 				0 
 			] 
 		},
 		{
 			"LocalEuler": [
-				-0,
+				0,
 				0,
 				0 
 			] 
@@ -111,10 +111,19 @@
 			] 
 		},
 		{
-			"ModelId": "sandboxSysId:\/\/entity\/player\/player12\/body.prefab" 
+			"ModelId": "sandboxSysId:\/\/entity\/100011\/body.omod" 
 		},
 		{
-			"Friction": 0.9100000262260437 
+			"Gravity": 980 
+		},
+		{
+			"Friction": 0 
+		},
+		{
+			"Restitution": 0.001000000047497451 
+		},
+		{
+			"Mass": 1000 
 		},
 		{
 			"Velocity": [
@@ -124,24 +133,46 @@
 			] 
 		},
 		{
+			"AngleVelocity": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
 			"Size": [
-				191.43310546875,
-				195.5707244873047,
-				116.1287460327148 
+				172.0734100341797,
+				200.5558166503906,
+				120.732177734375 
 			] 
 		},
 		{
 			"Center": [
-				0.2441177368164062,
-				88.92675018310547,
-				2.652202606201172 
+				0,
+				100.2779083251953,
+				-9.145864486694336 
 			] 
+		},
+		{
+			"EnableGravity": true 
+		},
+		{
+			"Anchored": true 
+		},
+		{
+			"PhysXType": 1 
 		},
 		{
 			"EnablePhysics": true 
 		},
 		{
-			"CollideGroupID": 1 
+			"CanCollide": true 
+		},
+		{
+			"CanTouch": true 
+		},
+		{
+			"CollideGroupID": 2 
 		},
 		{
 			"CullLayer": 0 
@@ -178,57 +209,6 @@
 		},
 		{
 			"Climbable": false 
-		},
-		{
-			"Movespeed": 400 
-		},
-		{
-			"MaxHealth": 100 
-		},
-		{
-			"Health": 100 
-		},
-		{
-			"UseCameraAngle": false 
-		},
-		{
-			"AutoRotate": true 
-		},
-		{
-			"UserId": 0 
-		},
-		{
-			"Gravity": 980 
-		},
-		{
-			"StepOffset": 100 
-		},
-		{
-			"CanAutoJump": false 
-		},
-		{
-			"SkinId": -1 
-		},
-		{
-			"SlopeLimit": 45 
-		},
-		{
-			"JumpBaseSpeed": 400 
-		},
-		{
-			"JumpContinueSpeed": 0 
-		},
-		{
-			"RunSpeedFactor": 1.5 
-		},
-		{
-			"CanPushOthers": false 
-		},
-		{
-			"PhysXRoleType": 1 
-		},
-		{
-			"StandardSkeleton": 2 
 		} 
 	] 
 } 
