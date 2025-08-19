@@ -56,7 +56,7 @@
 			] 
 		},
 		{
-			"SkyBoxType": 1 
+			"SkyBoxType": 0 
 		},
 		{
 			"CloudsEnable": true 
@@ -96,7 +96,7 @@
 			"CubeAssetID": "" 
 		},
 		{
-			"AdvanceMaterialAssetID": "sandboxSysId&filetype=8&restype=6:\/\/Materials\/Studio\/AdvancedSkybox.mat" 
+			"AdvanceMaterialAssetID": "" 
 		} 
 	] 
 } 

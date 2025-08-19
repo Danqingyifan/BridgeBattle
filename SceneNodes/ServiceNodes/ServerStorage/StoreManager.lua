@@ -1,8 +1,7 @@
 --商店
 local DeveloperStoreService = game:GetService("DeveloperStoreService")
 local ServerStorage = game:GetService('ServerStorage')
-local PlayerDataManager = require(ServerStorage.PlayerDataManager)
-local ZSDataService = require(ServerStorage.KVStorage.ZSDataService)
+local PlayerServerData = require(ServerStorage.PlayerServerData)
 local StoreManager = {
     StoreConfig = {
         [530004] = {
@@ -88,7 +87,7 @@ function StoreManager:RegisterCallback()
                 cfgId = 0,
                 reason = 'StorePurchase'
             }
-            PlayerDataManager:AddData(info, num * 10)
+            PlayerServerData:AddData(info, num * 10)
 
             local content = string.format("获得体力<font color='#00FF00'>%d</font>！", num * 10)
             _G.GameNet:SendMsgToClient(uin, 'SHOW_WARN_POP', 'ENERGY', content)
@@ -102,7 +101,7 @@ function StoreManager:RegisterCallback()
                 cfgId = 0,
                 reason = 'StorePurchase'
             }
-            PlayerDataManager:AddData(info, num * addCurrency)
+            PlayerServerData:AddData(info, num * addCurrency)
 
             local content = string.format("获得金币<font color='#00FF00'>%d</font>！", num * addCurrency)
             _G.GameNet:SendMsgToClient(uin, 'SHOW_WARN_POP', 'CURRENCY', content)
@@ -110,26 +109,4 @@ function StoreManager:RegisterCallback()
     end)
 end
 
-
--- 服务器：获取某个玩家已购买的商品列表
-local function GetPlayerPurchasedList(playerid)
-	local buyList = DeveloperStoreService:ServiceGetPlayerDeveloperProducts(playerid)
-	print("cloud store buy list = ", buyList)
-	local buyListLength = #buyList
-	if buyListLength > 0 then
-		-- 遍历每个商品信息
-		local buyItem = {}
-		for _, value in pairs(buyList) do
-			print("cloud buy list key = ", _)
-			for key, info in pairs(value) do
-				buyItem[key] = info
-				print("cloud buy list key = ", key)
-				print("cloud buy list info = ", info)
-			end
-		end
-	end
-	return buyList
-end
-
-print("StoreManager 初始化成功")
 return StoreManager

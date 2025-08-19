@@ -1,14 +1,14 @@
 {
 	"ClassID": 87,
 	"ClassType": "ModuleScript",
-	"NodeId": 9677362763618,
+	"NodeId": 9677372830278,
 	"attribute": [
 	],
 	"flags": 0,
-	"realNodeName": "PlayerDataManager",
+	"realNodeName": "ModuleScript",
 	"reflex": [
 		{
-			"Name": "PlayerDataManager" 
+			"Name": "ModuleScript" 
 		},
 		{
 			"Tag": 0 

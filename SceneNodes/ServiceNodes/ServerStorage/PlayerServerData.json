@@ -1,14 +1,14 @@
 {
 	"ClassID": 87,
 	"ClassType": "ModuleScript",
-	"NodeId": 3313832062,
+	"NodeId": 9677362763618,
 	"attribute": [
 	],
 	"flags": 0,
-	"realNodeName": "SGameCenter",
+	"realNodeName": "PlayerServerData",
 	"reflex": [
 		{
-			"Name": "SGameCenter" 
+			"Name": "PlayerServerData" 
 		},
 		{
 			"Tag": 0 
