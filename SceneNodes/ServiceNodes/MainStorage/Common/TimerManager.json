@@ -1,14 +1,14 @@
 {
-	"ClassID": 149,
-	"ClassType": "UIRoot",
-	"NodeId": 9677363730230,
+	"ClassID": 87,
+	"ClassType": "ModuleScript",
+	"NodeId": 9677372829809,
 	"attribute": [
 	],
 	"flags": 0,
-	"realNodeName": "AssetLoadingMask",
+	"realNodeName": "TimerManager",
 	"reflex": [
 		{
-			"Name": "AssetLoadingMask" 
+			"Name": "TimerManager" 
 		},
 		{
 			"Tag": 0 
@@ -32,13 +32,13 @@
 			"ResourceLoadMode": 0 
 		},
 		{
-			"Visible": true 
+			"Scriptid": 1 
 		},
 		{
-			"RenderIndex": 100 
+			"Mode": 1 
 		},
 		{
-			"Locked": false 
+			"Luafile": "" 
 		} 
 	] 
 } 
