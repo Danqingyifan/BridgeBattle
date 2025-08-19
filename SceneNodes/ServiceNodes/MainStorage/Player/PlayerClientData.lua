@@ -10,7 +10,6 @@ function ClientDataManager:Init()
         _G.GameNet:RegServerMsgCallback(
             'CLIENT_DATA_LOADFINISHED',
             function(data)
-               
             end
         )
     end

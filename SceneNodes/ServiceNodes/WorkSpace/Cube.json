@@ -1,14 +1,14 @@
 {
-	"ClassID": 176,
-	"ClassType": "SpawnLocation",
-	"NodeId": 2847289,
+	"ClassID": 123,
+	"ClassType": "GeoSolid",
+	"NodeId": 9677372834011,
 	"attribute": [
 	],
 	"flags": 0,
-	"realNodeName": "SpawnLocation1",
+	"realNodeName": "Cube",
 	"reflex": [
 		{
-			"Name": "SpawnLocation1" 
+			"Name": "Cube" 
 		},
 		{
 			"Tag": 0 
@@ -23,13 +23,13 @@
 			"LocalSyncFlag": 0 
 		},
 		{
-			"ResourceDynamicLoad": false 
+			"ResourceDynamicLoad": true 
 		},
 		{
 			"IgnoreSafeMode": false 
 		},
 		{
-			"ResourceLoadMode": 0 
+			"ResourceLoadMode": 2 
 		},
 		{
 			"Euler": [
@@ -41,7 +41,7 @@
 		{
 			"LocalPosition": [
 				0,
-				100,
+				0,
 				0 
 			] 
 		},
@@ -54,9 +54,9 @@
 		},
 		{
 			"LocalScale": [
+				10,
 				1,
-				1,
-				1 
+				10 
 			] 
 		},
 		{
@@ -68,7 +68,7 @@
 			] 
 		},
 		{
-			"Visible": false 
+			"Visible": true 
 		},
 		{
 			"CubeBorderEnable": false 
@@ -104,9 +104,9 @@
 		},
 		{
 			"Color": [
-				255,
-				255,
-				255,
+				200,
+				200,
+				200,
 				255 
 			] 
 		},
@@ -141,9 +141,9 @@
 		},
 		{
 			"Size": [
-				10,
-				10,
-				10 
+				100,
+				100,
+				100 
 			] 
 		},
 		{
@@ -178,6 +178,9 @@
 			"CullLayer": 0 
 		},
 		{
+			"IgnoreStreamSync": false 
+		},
+		{
 			"TextureMode": 0 
 		},
 		{
@@ -208,27 +211,26 @@
 			"Climbable": false 
 		},
 		{
-			"Neutral": true 
+			"GeoSolidShape": 0 
 		},
 		{
-			"AllowTeamChangeOnTouch": false 
+			"Hollow": false 
 		},
 		{
-			"TeamColor": [
-				255,
-				0,
-				0,
-				255 
+			"ToIntersect": false 
+		},
+		{
+			"InteractMethod": 3 
+		},
+		{
+			"SrcChildren": [
 			] 
 		},
 		{
-			"RandR": 0 
+			"LastParentID": -1 
 		},
 		{
-			"MainSpawn": false 
-		},
-		{
-			"IgnoreStreamSync": true 
+			"SrcChildrenList": "" 
 		} 
 	] 
 } 

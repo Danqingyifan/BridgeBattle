@@ -1,7 +1,6 @@
 local MainStorage = game:GetService('MainStorage')
-
+local Players = game:GetService('Players')
 local EventManager = require(MainStorage.Common.EventManager)
-local CameraController = require(MainStorage.Camera.CameraController)
 
 local PlayerCharacter = {}
 
@@ -33,28 +32,14 @@ function PlayerCharacter.New()
 end
 
 function PlayerCharacter:Init()
-    self.cameraController = CameraController.New()
-end
-
-function PlayerCharacter:EnterLevelBattle()
-    self.cameraController:StartClient()
+    self.bindCharacter = Players.LocalPlayer.Character
 end
 
 function PlayerCharacter:Update(eventName, ...)
-
 end
-
--- 战斗阶段的函数
-function PlayerCharacter:AttachCameraComponent()
-end
-
-function PlayerCharacter:UnAttachCameraComponent()
-end
-
 
 function PlayerCharacter:Destroy()
-    self.cameraController:Destroy()
-    self.cameraController = nil
+    self.bindCharacter = nil
 end
 
 return PlayerCharacter

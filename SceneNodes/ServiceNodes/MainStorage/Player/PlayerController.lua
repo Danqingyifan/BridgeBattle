@@ -49,41 +49,11 @@ end
 
 -- Input
 -- For PC(Touch Device use UI Event)
-function PlayerController.BindTPSContext()
+function PlayerController.BindInputContext()
     if RunService:IsPC() then
-        -- TPS Context Map
-        ContextActionService:BindContext(
-            'SwitchPlant',
-            function(actionName, inputState, inputObj)
-                if inputState == Enum.UserInputState.InputBegin.Value then
-                    -- 1 2 3 4 5
-                    if inputObj.KeyCode == 49 then
-                        PlayerController.OnSwitchPlantByPos(1)
-                    elseif inputObj.KeyCode == 50 then
-                        PlayerController.OnSwitchPlantByPos(2)
-                    elseif inputObj.KeyCode == 51 then
-                        PlayerController.OnSwitchPlantByPos(3)
-                    elseif inputObj.KeyCode == 52 then
-                        PlayerController.OnSwitchPlantByPos(4)
-                    elseif inputObj.KeyCode == 53 then
-                        PlayerController.OnSwitchPlantByPos(5)
-                    elseif inputObj.KeyCode == 54 then
-                        PlayerController.OnSwitchPlantByPos(6)
-                    elseif inputObj.KeyCode == 55 then
-                        PlayerController.OnSwitchPlantByPos(7)
-                    elseif inputObj.KeyCode == 56 then
-                        PlayerController.OnSwitchPlantByPos(8)
-                    elseif inputObj.KeyCode == 57 then
-                        PlayerController.OnSwitchPlantByPos(9)
-                    end
-                end
-            end,
-            false,
-            Enum.UserInputType.Keyboard
-        )
         -- Left Mouse Button for Shooting
         ContextActionService:BindContext(
-            'Fire_1',
+            'Fire',
             function(actionName, inputState, inputObj)
                 if inputState == Enum.UserInputState.InputBegin.Value then
                     local vector2 = Vector2.new(inputObj.Position.x, inputObj.Position.y)
@@ -94,18 +64,6 @@ function PlayerController.BindTPSContext()
             end,
             false,
             Enum.UserInputType.MouseButton1
-        )
-        ContextActionService:BindContext(
-            'Fire_2',
-            function(actionName, inputState, inputObj)
-                if inputState == Enum.UserInputState.InputBegin.Value then
-                    PlayerController.OnFireInputBegin()
-                elseif inputState == Enum.UserInputState.InputEnd.Value then
-                    PlayerController.OnFireInputEnd()
-                end
-            end,
-            false,
-            Enum.KeyCode.Space
         )
         -- Right Mouse Button for Aiming
         ContextActionService:BindContext(
@@ -119,32 +77,7 @@ function PlayerController.BindTPSContext()
             false,
             Enum.UserInputType.MouseButton2
         )
-        ContextActionService:BindContext(
-            'Reload',
-            function(actionName, inputState, inputObj)
-                if inputState == Enum.UserInputState.InputBegin.Value then
-                    if PlayerController.playerCharacter.controlledPlant then
-                        PlayerController.playerCharacter.controlledPlant:TryReload()
-                    end
-                end
-            end,
-            false,
-            Enum.KeyCode.R
-        )
     end
-end
-
-
-function PlayerController.KeyMouseUnbinding()
-    PlayerController.UnbindTPSContext()
-end
-
-function PlayerController.UnbindTPSContext()
-    ContextActionService:UnbindContext('SwitchPlant')
-    ContextActionService:UnbindContext('Fire_1')
-    ContextActionService:UnbindContext('Fire_2')
-    ContextActionService:UnbindContext('Aim')
-    ContextActionService:UnbindContext('Reload')
 end
 
 function PlayerController.GetPositionUnderCursor()
