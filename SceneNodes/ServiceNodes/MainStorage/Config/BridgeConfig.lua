@@ -9,8 +9,8 @@ BridgeConfig.BlockState = {
 
 BridgeConfig.BlockSize = 100 -- 方块边长
 BridgeConfig.BridgeLength = 30 -- 桥长
-BridgeConfig.BridgeWidth = 10 -- 桥宽
+BridgeConfig.BridgeWidth = 8 -- 桥宽
 BridgeConfig.BridgeThickness = 1 -- 桥厚度
-BridgeConfig.BridgeGuardHeight = 10 -- 桥护栏高度
+BridgeConfig.BridgeGuardHeight = 1 -- 桥护栏高度
 
 return BridgeConfig

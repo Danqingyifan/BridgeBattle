@@ -2,10 +2,12 @@
 local Vec3 = require(game.MainStorage.Common.Math.Vec3)
 
 local BlockData = {}
+BlockData.__index = BlockData
 
 -- 方块数据类
 function BlockData.new(logicPos, obj, state)
     local block = {}
+    setmetatable(block, BlockData)
 
     -- 逻辑坐标（整数坐标）
     block.logicPos = logicPos or Vec3.new(0, 0, 0)
@@ -19,14 +21,15 @@ function BlockData.new(logicPos, obj, state)
     return block
 end
 
+
 -- 设置方块状态
 function BlockData:SetState(state)
     self.state = state
 end
 
--- 检查方块是否被炸毁
-function BlockData:IsDestroyed()
-    return self.isDestroyed
+-- 获取方块状态
+function BlockData:GetState()
+    return self.state
 end
 
 -- 获取逻辑坐标

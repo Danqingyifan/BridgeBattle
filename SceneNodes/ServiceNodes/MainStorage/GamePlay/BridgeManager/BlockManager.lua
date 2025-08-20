@@ -3,10 +3,12 @@ local Vec3 = require(game.MainStorage.Common.Math.Vec3)
 local BlockData = require(script.BlockData)
 
 local BlockManager = {}
+BlockManager.__index = BlockManager
 
 -- 初始化方块管理器
 function BlockManager.new()
     local manager = {}
+    setmetatable(manager, BlockManager)
 
     -- 存储所有方块的映射表：blocks[逻辑坐标] = 方块数据
     manager.blocks = {}
@@ -25,6 +27,9 @@ end
 function BlockManager:AddBlock(logicPos, obj, state)
     local block = BlockData.new(logicPos, obj, state)
     local key = string.format("%d,%d,%d", logicPos.x, logicPos.y, logicPos.z)
+    if obj then
+        obj.Name = key
+    end
     self.blocks[key] = block
     table.insert(self.blockList, block)
     return block
@@ -120,22 +125,20 @@ function BlockManager:FindConnectedBlocksByState(startBlock, state)
         local currentBlock = table.remove(queue, 1)
         local currentPos = currentBlock:GetLogicPos()
         local currentKey = string.format("%d,%d,%d", currentPos.x, currentPos.y, currentPos.z)
-        if visited[currentKey] then
-            goto continue
-        end
-        visited[currentKey] = true
-        table.insert(connectedBlocks, currentBlock)
-        for _, direction in ipairs(directions) do
-            local neighborPos = currentPos + direction
-            local neighborBlock = self:GetBlock(neighborPos)
-            if neighborBlock and neighborBlock:GetState() == state then
-                local neighborKey = string.format("%d,%d,%d", neighborPos.x, neighborPos.y, neighborPos.z)
-                if not visited[neighborKey] then
-                    table.insert(queue, neighborBlock)
+        if not visited[currentKey] then
+            visited[currentKey] = true
+            table.insert(connectedBlocks, currentBlock)
+            for _, direction in ipairs(directions) do
+                local neighborPos = currentPos + direction
+                local neighborBlock = self:GetBlock(neighborPos)
+                if neighborBlock and neighborBlock:GetState() == state then
+                    local neighborKey = string.format("%d,%d,%d", neighborPos.x, neighborPos.y, neighborPos.z)
+                    if not visited[neighborKey] then
+                        table.insert(queue, neighborBlock)
+                    end
                 end
             end
         end
-        ::continue::
     end
 
     return connectedBlocks
