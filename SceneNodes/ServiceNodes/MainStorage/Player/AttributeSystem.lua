@@ -118,6 +118,7 @@ function AttributeSystem:getMaxLevelFor(playerId, key)
   assert(definition, "未找到属性定义: " .. tostring(key))
   return LevelTables.getMaxLevel(definition.tableKey)
 end
+
 -- 查询某一等级信息
 function AttributeSystem:getLevelInfo(playerId, key,Level)
   local definition = Attributes.getDefs()[key]
@@ -151,6 +152,7 @@ function AttributeSystem.getUpgradeCostToLevel(playerId, key, targetLevel)
   local info = getUpgradeInfo(definition.tableKey, targetLevel)
   return info and info.cost or 0
 end
+
 -- 查询是否可以升到某一等级
 function AttributeSystem.canUpgradeToLevel(playerId, key, targetLevel)
   local cost = AttributeSystem.getUpgradeCostToLevel(playerId, key, targetLevel)
@@ -200,8 +202,5 @@ function AttributeSystem.upgradeBy(playerId, key, Level)
   --local current = AttributeSystem.getAttributeLevel(playerId, key)
   return AttributeSystem.upgradeToLevel(playerId, key,Level)
 end
-
-
-
 
 return AttributeSystem
