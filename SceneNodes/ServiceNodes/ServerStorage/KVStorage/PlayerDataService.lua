@@ -1,9 +1,5 @@
-local MainStorage = game:GetService("MainStorage")
-local PlantConfig = require(MainStorage.Config.PlantConfig)
-
 -- KV接口层
 local PlayerDataService = {}
-
 
 -- 获取玩家上次进入的关卡ID
 function PlayerDataService:GetLastMapID(playerId)

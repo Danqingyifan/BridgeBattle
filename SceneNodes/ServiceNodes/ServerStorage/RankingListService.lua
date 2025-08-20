@@ -1,7 +1,4 @@
 local CloudService = game:GetService("CloudService")
-local MainStorage = game:GetService('MainStorage')
-local Players = game:GetService("Players")
-local RankingData = require(MainStorage.Common.RankingData)
 
 local RankingListService = {}
 
@@ -47,36 +44,6 @@ function RankingListService:UpdateCache()
     self.CachePlayerInfoList = {}
     self.CacheLevelSelfRankingList = {}
 end
-
--- 测试榜单数据
-local TestRankList = 
-{
-    {key = '2002808418', nick = 'xxx2', value = 101},
-    {key = '1997741132', nick = 'xxx1', value = 100},
-    {key = '2004094909', nick = 'xxx3', value = 99},
-    {key = '2004183276', nick = 'xxx4', value = 98},
-    {key = '1884167604', nick = 'xxx5', value = 97},
-    {key = '1884167603', nick = 'xxx5', value = 96},
-    {key = '1884167602', nick = 'xxx5', value = 95},
-    {key = '1884167601', nick = 'xxx5', value = 94},
-    {key = '1884167600', nick = 'xxx5', value = 93},
-    {key = '1884167599', nick = 'xxx6', value = 92},
-}
-
--- 测试组队榜单数据
-local TeamTestRankList = 
-{
-    {key = '2002808418_1884167601_2004094909', nick = 'xxx2', value = 101, leaderUin = 2004094909},
-    {key = '1997741132_2002808418_1884167599', nick = 'xxx1', value = 100, leaderUin = 1997741132},
-    {key = '1997741132_2004094909_1884167598', nick = 'xxx3', value = 99, leaderUin = 1997741132},
-    {key = '2004183276_1884167604', nick = 'xxx4', value = 98, leaderUin = 1884167604},
-    {key = '1884167604_1884167603', nick = 'xxx5', value = 97, leaderUin = 1884167603},
-    {key = '1884167603_1884167602_1884167601_1884167600', nick = 'xxx5', value = 96, leaderUin = 1884167603},
-    {key = '1884167602_1884167601', nick = 'xxx5', value = 95, leaderUin = 1884167602},
-    {key = '1884167601_1884167600', nick = 'xxx5', value = 94, leaderUin = 1884167600},
-    {key = '1884167600_1884167599', nick = 'xxx5', value = 93, leaderUin = 1884167600},
-    {key = '1884167599_1884167598', nick = 'xxx6', value = 92, leaderUin = 1884167598},
-}
 
 -- 通知当前客户端
 function RankingListService:ToClient(playerId, FunName, ...)

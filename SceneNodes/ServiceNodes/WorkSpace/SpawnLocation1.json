@@ -1,7 +1,7 @@
 {
 	"ClassID": 176,
 	"ClassType": "SpawnLocation",
-	"NodeId": 2847289,
+	"NodeId": 9677384363710,
 	"attribute": [
 	],
 	"flags": 0,
@@ -41,7 +41,7 @@
 		{
 			"LocalPosition": [
 				0,
-				100,
+				53,
 				0 
 			] 
 		},
@@ -68,7 +68,7 @@
 			] 
 		},
 		{
-			"Visible": false 
+			"Visible": true 
 		},
 		{
 			"CubeBorderEnable": false 
@@ -100,7 +100,7 @@
 			"MaterialType": 0 
 		},
 		{
-			"TextureId": "" 
+			"TextureId": "sandboxSysId:\/\/blocks\/teamspawn0.png" 
 		},
 		{
 			"Color": [
@@ -111,7 +111,7 @@
 			] 
 		},
 		{
-			"ModelId": "" 
+			"ModelId": "sandboxSysId:\/\/blocks\/teamspawn.obj" 
 		},
 		{
 			"Gravity": 980 
@@ -141,20 +141,20 @@
 		},
 		{
 			"Size": [
-				10,
-				10,
-				10 
+				100,
+				35.18527221679688,
+				100 
 			] 
 		},
 		{
 			"Center": [
-				0,
-				0,
-				0 
+				50,
+				17.44189453125,
+				50 
 			] 
 		},
 		{
-			"EnableGravity": false 
+			"EnableGravity": true 
 		},
 		{
 			"Anchored": true 

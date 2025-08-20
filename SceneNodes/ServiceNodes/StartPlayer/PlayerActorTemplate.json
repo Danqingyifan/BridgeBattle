@@ -68,7 +68,7 @@
 			] 
 		},
 		{
-			"Visible": false 
+			"Visible": true 
 		},
 		{
 			"CubeBorderEnable": false 
@@ -138,10 +138,10 @@
 			] 
 		},
 		{
-			"EnablePhysics": false 
+			"EnablePhysics": true 
 		},
 		{
-			"CollideGroupID": 2 
+			"CollideGroupID": 1 
 		},
 		{
 			"CullLayer": 0 
@@ -180,7 +180,7 @@
 			"Climbable": false 
 		},
 		{
-			"Movespeed": 0 
+			"Movespeed": 400 
 		},
 		{
 			"MaxHealth": 100 
