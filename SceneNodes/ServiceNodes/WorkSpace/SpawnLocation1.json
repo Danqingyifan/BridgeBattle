@@ -1,14 +1,14 @@
 {
-	"ClassID": 114,
-	"ClassType": "Actor",
-	"NodeId": 11012,
+	"ClassID": 176,
+	"ClassType": "SpawnLocation",
+	"NodeId": 9677384363710,
 	"attribute": [
 	],
 	"flags": 0,
-	"realNodeName": "PlayerActorTemplate",
+	"realNodeName": "SpawnLocation1",
 	"reflex": [
 		{
-			"Name": "PlayerActorTemplate" 
+			"Name": "SpawnLocation1" 
 		},
 		{
 			"Tag": 0 
@@ -23,13 +23,13 @@
 			"LocalSyncFlag": 0 
 		},
 		{
-			"ResourceDynamicLoad": true 
+			"ResourceDynamicLoad": false 
 		},
 		{
 			"IgnoreSafeMode": false 
 		},
 		{
-			"ResourceLoadMode": 2 
+			"ResourceLoadMode": 0 
 		},
 		{
 			"Euler": [
@@ -41,13 +41,13 @@
 		{
 			"LocalPosition": [
 				0,
-				0,
+				53,
 				0 
 			] 
 		},
 		{
 			"LocalEuler": [
-				-0,
+				0,
 				0,
 				0 
 			] 
@@ -100,7 +100,7 @@
 			"MaterialType": 0 
 		},
 		{
-			"TextureId": "" 
+			"TextureId": "sandboxSysId:\/\/blocks\/teamspawn0.png" 
 		},
 		{
 			"Color": [
@@ -111,10 +111,19 @@
 			] 
 		},
 		{
-			"ModelId": "sandboxSysId:\/\/entity\/player\/player12\/body.prefab" 
+			"ModelId": "sandboxSysId:\/\/blocks\/teamspawn.obj" 
 		},
 		{
-			"Friction": 0.9100000262260437 
+			"Gravity": 980 
+		},
+		{
+			"Friction": 0 
+		},
+		{
+			"Restitution": 0.001000000047497451 
+		},
+		{
+			"Mass": 1000 
 		},
 		{
 			"Velocity": [
@@ -124,30 +133,49 @@
 			] 
 		},
 		{
+			"AngleVelocity": [
+				0,
+				0,
+				0 
+			] 
+		},
+		{
 			"Size": [
-				191.43310546875,
-				195.5707244873047,
-				116.1287460327148 
+				100,
+				35.18527221679688,
+				100 
 			] 
 		},
 		{
 			"Center": [
-				0.2441177368164062,
-				88.92675018310547,
-				2.652202606201172 
+				50,
+				17.44189453125,
+				50 
 			] 
+		},
+		{
+			"EnableGravity": true 
+		},
+		{
+			"Anchored": true 
+		},
+		{
+			"PhysXType": 1 
 		},
 		{
 			"EnablePhysics": true 
 		},
 		{
-			"CollideGroupID": 1 
+			"CanCollide": true 
+		},
+		{
+			"CanTouch": true 
+		},
+		{
+			"CollideGroupID": 2 
 		},
 		{
 			"CullLayer": 0 
-		},
-		{
-			"IgnoreStreamSync": false 
 		},
 		{
 			"TextureMode": 0 
@@ -180,55 +208,27 @@
 			"Climbable": false 
 		},
 		{
-			"Movespeed": 400 
+			"Neutral": true 
 		},
 		{
-			"MaxHealth": 100 
+			"AllowTeamChangeOnTouch": false 
 		},
 		{
-			"Health": 100 
+			"TeamColor": [
+				255,
+				0,
+				0,
+				255 
+			] 
 		},
 		{
-			"UseCameraAngle": false 
+			"RandR": 0 
 		},
 		{
-			"AutoRotate": true 
+			"MainSpawn": false 
 		},
 		{
-			"UserId": 0 
-		},
-		{
-			"Gravity": 980 
-		},
-		{
-			"StepOffset": 100 
-		},
-		{
-			"CanAutoJump": false 
-		},
-		{
-			"SkinId": -1 
-		},
-		{
-			"SlopeLimit": 45 
-		},
-		{
-			"JumpBaseSpeed": 400 
-		},
-		{
-			"JumpContinueSpeed": 0 
-		},
-		{
-			"RunSpeedFactor": 1.5 
-		},
-		{
-			"CanPushOthers": false 
-		},
-		{
-			"PhysXRoleType": 1 
-		},
-		{
-			"StandardSkeleton": 2 
+			"IgnoreStreamSync": true 
 		} 
 	] 
 } 

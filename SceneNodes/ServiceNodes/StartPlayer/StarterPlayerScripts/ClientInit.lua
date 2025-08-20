@@ -2,7 +2,7 @@ local MainStorage = game:GetService('MainStorage')
 
 _G.GameNet = require(MainStorage.Common.GameNet)
 _G.EventManager = require(MainStorage.Common.EventManager)
-_G.PoolManager = require(MainStorage.Subsystem.PoolManager)
+_G.PoolManager = require(MainStorage.Common.PoolManager)
 
 _G.PlayerClientData = require(MainStorage.Player.PlayerClientData)
 _G.PlayerController = require(MainStorage.Player.PlayerController)

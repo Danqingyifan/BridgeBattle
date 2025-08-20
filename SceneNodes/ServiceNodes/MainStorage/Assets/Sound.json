@@ -1,14 +1,14 @@
 {
-	"ClassID": 87,
-	"ClassType": "ModuleScript",
-	"NodeId": 9677362763619,
+	"ClassID": 1,
+	"ClassType": "SandboxNode",
+	"NodeId": 9677384364734,
 	"attribute": [
 	],
 	"flags": 0,
-	"realNodeName": "LevelProgressModule",
+	"realNodeName": "Sound",
 	"reflex": [
 		{
-			"Name": "LevelProgressModule" 
+			"Name": "Sound" 
 		},
 		{
 			"Tag": 0 
@@ -30,15 +30,6 @@
 		},
 		{
 			"ResourceLoadMode": 0 
-		},
-		{
-			"Scriptid": 1 
-		},
-		{
-			"Mode": 1 
-		},
-		{
-			"Luafile": "" 
 		} 
 	] 
 } 
