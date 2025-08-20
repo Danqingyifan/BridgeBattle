@@ -2,13 +2,13 @@ local CollideDefines = {}
 
 CollideDefines.CollideGroup =
 {
-    redPlayer = 1,       -- 红队玩家
-    redBridge = 2,       -- 红队桥梁
-    yellowPlayer = 3,    -- 黄队玩家
-    yellowBridge = 4,    -- 黄队桥梁
-    bluePlayer = 5,      -- 蓝队玩家
-    blueBridge = 6,      -- 蓝队桥梁
-    destroyedBridge = 7, -- 炸毁的桥梁
+    redPlayer = 11,       -- 红队玩家
+    redBridge = 12,       -- 红队桥梁
+    yellowPlayer = 13,    -- 黄队玩家
+    yellowBridge = 14,    -- 黄队桥梁
+    bluePlayer = 15,      -- 蓝队玩家
+    blueBridge = 16,      -- 蓝队桥梁
+    destroyedBridge = 17, -- 炸毁的桥梁
 }
 
 CollideDefines.CollideType =

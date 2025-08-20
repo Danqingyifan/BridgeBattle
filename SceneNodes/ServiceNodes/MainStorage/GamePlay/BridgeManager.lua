@@ -21,6 +21,8 @@ function BridgeManager:GenerateEntityBlock(props)
     local obj = SandboxNode.new('GeoSolid', props.rootNode)
     obj.Position = Vector3.New(props.position.x, props.position.y, props.position.z)
     obj.CollideGroupID = CollideDefines:GetBridgeCollideGroupByType(props.collideType)
+    obj.EnableGravity = false
+    obj.Size = Vector3.New(BridgeConfig.BlockSize, BridgeConfig.BlockSize, BridgeConfig.BlockSize, 100)
     obj:AddAttribute("logicPos", Enum.AttributeType.Vector3)
     obj:SetAttribute("logicPos", Vector3.New(props.logicPos.x, props.logicPos.y, props.logicPos.z))
     obj:AddAttribute("collideType", Enum.AttributeType.Number)
@@ -30,7 +32,6 @@ end
 
 -- 生成桥的方块
 function BridgeManager:GenerateBridge(rootNode, collideType)
-    local config = BridgeConfig
     local startPos = self.bridgeStartPos
 
     -- 左手坐标系
@@ -38,11 +39,11 @@ function BridgeManager:GenerateBridge(rootNode, collideType)
     local upDirection = Vec3.new(0, 1, 0)      -- +Y 向上
     local forwardDirection = Vec3.new(0, 0, 1) -- +Z 向前
 
-    local bridgeLength = config.BridgeLength
-    local bridgeWidth = config.BridgeWidth
-    local bridgeThickness = config.BridgeThickness
-    local guardHeight = config.BridgeGuardHeight
-    local blockSize = config.BlockSize
+    local bridgeLength = BridgeConfig.BridgeLength
+    local bridgeWidth = BridgeConfig.BridgeWidth
+    local bridgeThickness = BridgeConfig.BridgeThickness
+    local guardHeight = BridgeConfig.BridgeGuardHeight
+    local blockSize = BridgeConfig.BlockSize
     -- 生成桥面方块
     for l = 0, bridgeLength - 1 do
         for w = 0, bridgeWidth - 1 do
@@ -52,7 +53,7 @@ function BridgeManager:GenerateBridge(rootNode, collideType)
                     forwardDirection * (l * blockSize) +
                     rightDirection * (w * blockSize) +
                     upDirection * (t * blockSize)
-                local blockState = config.BlockState.Destroyed
+                local blockState = BridgeConfig.BlockState.Destroyed
                 local obj = self:GenerateEntityBlock({
                     logicPos = logicPos,
                     rootNode = rootNode,
@@ -78,7 +79,7 @@ function BridgeManager:GenerateBridge(rootNode, collideType)
                 position = leftWorldPos,
                 collideType = collideType
             })
-            self.blockManager:AddBlock(leftLogicPos, objLeft, config.BlockState.Destroyed)
+            self.blockManager:AddBlock(leftLogicPos, objLeft, BridgeConfig.BlockState.Destroyed)
 
             -- 右护栏
             local rightLogicPos = Vec3.new(l, bridgeThickness + h, bridgeWidth - 1)
@@ -92,7 +93,7 @@ function BridgeManager:GenerateBridge(rootNode, collideType)
                 position = rightWorldPos,
                 collideType = collideType
             })
-            self.blockManager:AddBlock(rightLogicPos, objRight, config.BlockState.Destroyed)
+            self.blockManager:AddBlock(rightLogicPos, objRight, BridgeConfig.BlockState.Destroyed)
         end
     end
     self:ResetBridge()
@@ -105,7 +106,6 @@ function BridgeManager:DestroyBlockByObj(obj)
     if logicPos then
         return self:DestroyBlock(Vec3.new(logicPos.X, logicPos.Y, logicPos.Z))
     end
-    print("炸毁方块不存在：", logicPos.x, logicPos.y, logicPos.z)
     return false
 end
 
@@ -118,7 +118,6 @@ function BridgeManager:DestroyBlock(logicPos)
             return false
         end
         self.blockManager:SetBlockState(logicPos, BridgeConfig.BlockState.Destroyed)
-        print("方块被炸毁：", logicPos.x, logicPos.y, logicPos.z)
         self:DestroyLogic(block)
         return true
     end
