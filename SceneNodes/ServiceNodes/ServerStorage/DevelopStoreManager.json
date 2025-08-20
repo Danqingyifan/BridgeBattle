@@ -5,10 +5,10 @@
 	"attribute": [
 	],
 	"flags": 0,
-	"realNodeName": "StoreManager",
+	"realNodeName": "DevelopStoreManager",
 	"reflex": [
 		{
-			"Name": "StoreManager" 
+			"Name": "DevelopStoreManager" 
 		},
 		{
 			"Tag": 0 

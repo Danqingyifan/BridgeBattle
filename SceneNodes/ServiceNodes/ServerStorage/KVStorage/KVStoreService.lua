@@ -2,17 +2,6 @@ local KVStoreService = {}
 local PlayerKVDatabaseClass = require(script.PlayerKVDatabaseClass)
 local CloudService = game:GetService("CloudService")
 
--- 开始模拟登录功能
-local OpenSimulateLogin = true
-
---[[
-    SimulatePlayerId = 模拟登录的玩家ID
-    LastLoginTime    = 最后的登录时间
-
-]]
-local SimulateLoginData = "SimulateLoginData"
-local SimulateLoginValidTime = 2 * 60 * 60    -- 模拟登录有效时间
-
 function KVStoreService:StartService()
     self._database = {}
     self._onlinePlayerKVMap = {}
@@ -22,7 +11,6 @@ function KVStoreService:StartService()
     self._loadFailedPlayerMap = {}
     self._loadFinishedPlayerMap = {}
     self._lastTimeoutTime = nil
-    self._simulatePlayerMap = {}
 end
 
 function KVStoreService:StopService()
@@ -34,16 +22,6 @@ end
 function KVStoreService:OnPlayerAdded(player)
     local playerId = player.UserId
 
-    if OpenSimulateLogin then
-        local key = string.format("%s_%s", SimulateLoginData, playerId)
-        local ok, val = CloudService:GetTable(key)
-        if ok then
-            if os.time() < (val.LastLoginTime + SimulateLoginValidTime) then
-                self._simulatePlayerMap[playerId] = val.SimulatePlayerId
-            end
-        end
-    end
-    
     if self._onlinePlayerKVMap[playerId] then
         self._onlinePlayerKVMap[playerId] = self._onlinePlayerKVMap[playerId]
         ServerGlobalEvent.OnPlayerKVLoadFinished:Fire(playerId)

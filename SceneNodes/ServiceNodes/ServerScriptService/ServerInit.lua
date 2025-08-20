@@ -21,14 +21,12 @@ KVStoreService:StartService()
 _G.PlayerServerData = require(ServerStorage.PlayerServerData)
 
 local TeamManager = require(ServerStorage.TeamManager)
-local StoreManager = require(ServerStorage.StoreManager)
-local ChatService = require(ServerStorage.ChatService)
-local RankingListService = require(ServerStorage.RankingListService)
+local DevelopStoreManager = require(ServerStorage.DevelopStoreManager)
 
-_G.TeamManager = TeamManager
+local MapManager = require(ServerStorage.MapManager)
 
 local function Init()
-    -- PlayerServerData.Init()
+    PlayerServerData.Init()
     -- TeamManager.Init()
     -- StoreManager.Init()
     -- ChatService:Init()
