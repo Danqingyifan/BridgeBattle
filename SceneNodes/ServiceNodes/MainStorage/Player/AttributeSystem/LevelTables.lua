@@ -1,4 +1,3 @@
-@ -1,48 +0,0 @@
 local LevelTables = {}
 
 LevelTables._tables = {
