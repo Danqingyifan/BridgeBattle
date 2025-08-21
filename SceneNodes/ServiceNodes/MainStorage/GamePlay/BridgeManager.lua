@@ -16,10 +16,63 @@ function BridgeManager.new()
     return manager
 end
 
+-- 计算随机旋转的偏移坐标和旋转角度
+function BridgeManager:CalculateRandomRotation()
+    local rotationAxis = math.random(1, 3)       -- 1=X轴, 2=Y轴, 3=Z轴
+    local rotationAngle = math.random(1, 3) * 90 -- 90, 180, 270度
+    local blockSize = BridgeConfig.BlockSize
+    local offsetX, offsetY, offsetZ = 0, 0, 0
+    if rotationAxis == 1 then -- X轴旋转
+        if rotationAngle == 90 then
+            offsetY = blockSize
+        elseif rotationAngle == 180 then
+            offsetY = blockSize
+            offsetZ = blockSize
+        elseif rotationAngle == 270 then
+            offsetZ = blockSize
+        end
+    elseif rotationAxis == 2 then -- Y轴旋转
+        if rotationAngle == 90 then
+            offsetZ = blockSize
+        elseif rotationAngle == 180 then
+            offsetX = blockSize
+            offsetZ = blockSize
+        elseif rotationAngle == 270 then
+            offsetX = blockSize
+        end
+    elseif rotationAxis == 3 then -- Z轴旋转
+        if rotationAngle == 90 then
+            offsetX = blockSize
+        elseif rotationAngle == 180 then
+            offsetX = blockSize
+            offsetY = blockSize
+        elseif rotationAngle == 270 then
+            offsetY = blockSize
+        end
+    end
+    local offsetVector = Vector3.New(offsetX, offsetY, offsetZ)
+    local rotationVector = Vector3.New(0, 0, 0)
+    if rotationAxis == 1 then
+        rotationVector = Vector3.New(rotationAngle, 0, 0)
+    elseif rotationAxis == 2 then
+        rotationVector = Vector3.New(0, rotationAngle, 0)
+    else
+        rotationVector = Vector3.New(0, 0, rotationAngle)
+    end
+    return offsetVector, rotationVector
+end
+
 -- 生成实体方块
 function BridgeManager:GenerateEntityBlock(props)
-    local obj = SandboxNode.new('GeoSolid', props.rootNode)
-    obj.Position = Vector3.New(props.position.x, props.position.y, props.position.z)
+    local obj = game.MainStorage.Assets.Prefab.stone_cube_1:Clone()
+    obj.Parent = props.rootNode
+    local offsetVector, rotationVector = self:CalculateRandomRotation()
+    obj.Euler = rotationVector
+    obj.Position = Vector3.New(
+        props.position.x + offsetVector.x,
+        props.position.y + offsetVector.y,
+        props.position.z + offsetVector.z
+    )
     obj.CollideGroupID = CollideDefines:GetBridgeCollideGroupByType(props.collideType)
     obj.EnableGravity = false
     obj.Size = Vector3.New(BridgeConfig.BlockSize, BridgeConfig.BlockSize, BridgeConfig.BlockSize, 100)
