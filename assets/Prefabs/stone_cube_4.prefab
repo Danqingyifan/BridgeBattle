@@ -1,0 +1,710 @@
+{
+    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+    "m_RootObjectIdentifier": {
+        "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+        "m_PersistentID": 8519171383710531295
+    },
+    "VersionMap": [
+        {
+            "first": 849020564,
+            "second": 2
+        },
+        {
+            "first": 2179894251,
+            "second": 5
+        },
+        {
+            "first": 3151843439,
+            "second": 2
+        },
+        {
+            "first": 1612270196,
+            "second": 3
+        },
+        {
+            "first": 3201641093,
+            "second": 3
+        },
+        {
+            "first": 2451956310,
+            "second": 2
+        },
+        {
+            "first": 88415505,
+            "second": 5
+        },
+        {
+            "first": 1298313767,
+            "second": 4
+        },
+        {
+            "first": 1503796268,
+            "second": 4
+        },
+        {
+            "first": 2232473970,
+            "second": 4
+        },
+        {
+            "first": 427551168,
+            "second": 2
+        },
+        {
+            "first": 2213946675,
+            "second": 3
+        },
+        {
+            "first": 1743228860,
+            "second": 3
+        },
+        {
+            "first": 1842158755,
+            "second": 3
+        },
+        {
+            "first": 3641444210,
+            "second": 2
+        }
+    ],
+    "m_IdentifierMap": [
+        {
+            "first": {
+                "m_GUID": "adf667629e1433641b72a5b3c6811628",
+                "m_PersistentID": 1
+            },
+            "second": 9
+        },
+        {
+            "first": {
+                "m_GUID": "d2a7898282611454a82844210e4420a7",
+                "m_PersistentID": 1
+            },
+            "second": 13
+        },
+        {
+            "first": {
+                "m_GUID": "cb0fe89c310477e47b1c34b548812588",
+                "m_PersistentID": 1
+            },
+            "second": 16
+        },
+        {
+            "first": {
+                "m_GUID": "cb0fe89c310477e47b1c34b548812588",
+                "m_PersistentID": 2
+            },
+            "second": 15
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 913591172850755607
+            },
+            "second": 1
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 1394407509420871077
+            },
+            "second": 12
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 5304737652828745695
+            },
+            "second": 4
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 5355289194454328683
+            },
+            "second": 3
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 6354075450918298963
+            },
+            "second": 8
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 6598894858294871693
+            },
+            "second": 6
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 7052243917147259503
+            },
+            "second": 11
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 7112307447153729292
+            },
+            "second": 10
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 7550055048958426897
+            },
+            "second": 2
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 8519171383710531295
+            },
+            "second": 0
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 8841506635545315827
+            },
+            "second": 14
+        },
+        {
+            "first": {
+                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd",
+                "m_PersistentID": 8845351674033133867
+            },
+            "second": 7
+        },
+        {
+            "first": {
+                "m_GUID": "94e5a1ed334336248a88e3800eabe1e0",
+                "m_PersistentID": 1
+            },
+            "second": 5
+        }
+    ],
+    "m_ObjectList": [
+        {
+            "m_TypeID": 4,
+            "m_ObjectIndex": 0,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 202,
+            "m_ObjectIndex": 1,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 4,
+            "m_ObjectIndex": 2,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 202,
+            "m_ObjectIndex": 3,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 213,
+            "m_ObjectIndex": 4,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 8,
+            "m_ObjectIndex": 5,
+            "m_ObjectFlag": 2
+        },
+        {
+            "m_TypeID": 4,
+            "m_ObjectIndex": 6,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 202,
+            "m_ObjectIndex": 7,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 213,
+            "m_ObjectIndex": 8,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 8,
+            "m_ObjectIndex": 9,
+            "m_ObjectFlag": 2
+        },
+        {
+            "m_TypeID": 4,
+            "m_ObjectIndex": 10,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 202,
+            "m_ObjectIndex": 11,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 213,
+            "m_ObjectIndex": 12,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 8,
+            "m_ObjectIndex": 13,
+            "m_ObjectFlag": 2
+        },
+        {
+            "m_TypeID": 243,
+            "m_ObjectIndex": 14,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 14,
+            "m_ObjectIndex": 15,
+            "m_ObjectFlag": 0
+        },
+        {
+            "m_TypeID": 13,
+            "m_ObjectIndex": 16,
+            "m_ObjectFlag": 2
+        }
+    ],
+    "m_Object_0": {
+        "GameObject": {
+            "EditorExtensionTransfer": {
+                "EditorGameObject": {
+                    "m_HideFlags": 0,
+                    "m_FbxPath": "C:/Users/zhengyujia/Desktop/stone_cube_6.fbx",
+                    "m_FbxResType": 0
+                }
+            },
+            "m_Name": "stone_cube_6",
+            "m_Layer": 0,
+            "m_Tag": "",
+            "Attr": 0,
+            "m_Component": [
+                {
+                    "m_PersistentID": 913591172850755607,
+                    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                },
+                {
+                    "m_PersistentID": 8841506635545315827,
+                    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                }
+            ]
+        }
+    },
+    "m_Object_1": {
+        "Transform": {
+            "EditorExtensionTransfer": {
+                "EditorExtension": {
+                    "m_HideFlags": 0
+                }
+            },
+            "m_Enable": true,
+            "transformData": {
+                "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "m_LocalPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "m_IsActive": true
+            },
+            "m_ChildrenGameObjects": [
+                {
+                    "m_PersistentID": 7550055048958426897,
+                    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                },
+                {
+                    "m_PersistentID": 6598894858294871693,
+                    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                },
+                {
+                    "m_PersistentID": 7112307447153729292,
+                    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                }
+            ]
+        }
+    },
+    "m_Object_2": {
+        "GameObject": {
+            "EditorExtensionTransfer": {
+                "EditorGameObject": {
+                    "m_HideFlags": 0,
+                    "m_FbxPath": "",
+                    "m_FbxResType": 0
+                }
+            },
+            "m_Name": "block_stone1_6_LOD0",
+            "m_Layer": 0,
+            "m_Tag": "",
+            "Attr": 0,
+            "m_Component": [
+                {
+                    "m_PersistentID": 5355289194454328683,
+                    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                },
+                {
+                    "m_PersistentID": 5304737652828745695,
+                    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                }
+            ]
+        }
+    },
+    "m_Object_3": {
+        "Transform": {
+            "EditorExtensionTransfer": {
+                "EditorExtension": {
+                    "m_HideFlags": 0
+                }
+            },
+            "m_Enable": true,
+            "transformData": {
+                "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "m_LocalPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "m_IsActive": true
+            },
+            "m_ChildrenGameObjects": []
+        }
+    },
+    "m_Object_4": {
+        "MeshRenderer": {
+            "EditorExtensionTransfer": {
+                "EditorExtension": {
+                    "m_HideFlags": 0
+                }
+            },
+            "m_Enable": true,
+            "m_CullingMask": 65535,
+            "m_CullPolicy": 0,
+            "m_Hide": 0,
+            "m_CastShadow": 1,
+            "m_ReceiveShadow": 1,
+            "m_IsAffectedByFog": 1,
+            "m_IsAffectedByLight": 1,
+            "m_Materials": [
+                {
+                    "m_PersistentID": 5249021694551372269,
+                    "m_GUID": "cb0fe89c310477e47b1c34b548812588"
+                }
+            ],
+            "m_SortingOrder": 0,
+            "m_Mesh": {
+                "m_PersistentID": 1,
+                "m_GUID": "94e5a1ed334336248a88e3800eabe1e0"
+            },
+            "m_Bounds": {
+                "m_Center": {
+                    "x": -0.0031261444091796877,
+                    "y": -1.1672306060791016,
+                    "z": 0.10490000247955322
+                },
+                "m_Extent": {
+                    "x": 55.77080154418945,
+                    "y": 55.27159881591797,
+                    "z": 55.77119827270508
+                }
+            }
+        }
+    },
+    "m_Object_6": {
+        "GameObject": {
+            "EditorExtensionTransfer": {
+                "EditorGameObject": {
+                    "m_HideFlags": 0,
+                    "m_FbxPath": "",
+                    "m_FbxResType": 0
+                }
+            },
+            "m_Name": "block_stone1_6_LOD1",
+            "m_Layer": 0,
+            "m_Tag": "",
+            "Attr": 0,
+            "m_Component": [
+                {
+                    "m_PersistentID": 8845351674033133867,
+                    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                },
+                {
+                    "m_PersistentID": 6354075450918298963,
+                    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                }
+            ]
+        }
+    },
+    "m_Object_7": {
+        "Transform": {
+            "EditorExtensionTransfer": {
+                "EditorExtension": {
+                    "m_HideFlags": 0
+                }
+            },
+            "m_Enable": true,
+            "transformData": {
+                "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "m_LocalPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "m_IsActive": true
+            },
+            "m_ChildrenGameObjects": []
+        }
+    },
+    "m_Object_8": {
+        "MeshRenderer": {
+            "EditorExtensionTransfer": {
+                "EditorExtension": {
+                    "m_HideFlags": 0
+                }
+            },
+            "m_Enable": true,
+            "m_CullingMask": 65535,
+            "m_CullPolicy": 0,
+            "m_Hide": 0,
+            "m_CastShadow": 1,
+            "m_ReceiveShadow": 1,
+            "m_IsAffectedByFog": 1,
+            "m_IsAffectedByLight": 1,
+            "m_Materials": [
+                {
+                    "m_PersistentID": 5249021694551372269,
+                    "m_GUID": "cb0fe89c310477e47b1c34b548812588"
+                }
+            ],
+            "m_SortingOrder": 0,
+            "m_Mesh": {
+                "m_PersistentID": 1,
+                "m_GUID": "adf667629e1433641b72a5b3c6811628"
+            },
+            "m_Bounds": {
+                "m_Center": {
+                    "x": -0.005031585693359375,
+                    "y": 0.039900001138448718,
+                    "z": 0.10140000283718109
+                },
+                "m_Extent": {
+                    "x": 54.31570053100586,
+                    "y": 54.33879852294922,
+                    "z": 54.31990051269531
+                }
+            }
+        }
+    },
+    "m_Object_10": {
+        "GameObject": {
+            "EditorExtensionTransfer": {
+                "EditorGameObject": {
+                    "m_HideFlags": 0,
+                    "m_FbxPath": "",
+                    "m_FbxResType": 0
+                }
+            },
+            "m_Name": "block_stone1_6_LOD2",
+            "m_Layer": 0,
+            "m_Tag": "",
+            "Attr": 0,
+            "m_Component": [
+                {
+                    "m_PersistentID": 7052243917147259503,
+                    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                },
+                {
+                    "m_PersistentID": 1394407509420871077,
+                    "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                }
+            ]
+        }
+    },
+    "m_Object_11": {
+        "Transform": {
+            "EditorExtensionTransfer": {
+                "EditorExtension": {
+                    "m_HideFlags": 0
+                }
+            },
+            "m_Enable": true,
+            "transformData": {
+                "m_LocalRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "m_LocalPosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_LocalScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "m_IsActive": true
+            },
+            "m_ChildrenGameObjects": []
+        }
+    },
+    "m_Object_12": {
+        "MeshRenderer": {
+            "EditorExtensionTransfer": {
+                "EditorExtension": {
+                    "m_HideFlags": 0
+                }
+            },
+            "m_Enable": true,
+            "m_CullingMask": 65535,
+            "m_CullPolicy": 0,
+            "m_Hide": 0,
+            "m_CastShadow": 1,
+            "m_ReceiveShadow": 1,
+            "m_IsAffectedByFog": 1,
+            "m_IsAffectedByLight": 1,
+            "m_Materials": [
+                {
+                    "m_PersistentID": 5249021694551372269,
+                    "m_GUID": "cb0fe89c310477e47b1c34b548812588"
+                }
+            ],
+            "m_SortingOrder": 0,
+            "m_Mesh": {
+                "m_PersistentID": 1,
+                "m_GUID": "d2a7898282611454a82844210e4420a7"
+            },
+            "m_Bounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 50.0,
+                    "y": 50.0,
+                    "z": 50.0
+                }
+            }
+        }
+    },
+    "m_Object_14": {
+        "LODGroup": {
+            "EditorExtensionTransfer": {
+                "EditorExtension": {
+                    "m_HideFlags": 0
+                }
+            },
+            "m_Enable": true,
+            "m_LocalReferencePoint": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "m_Size": 100.0,
+            "m_LODs": [
+                {
+                    "m_ScreenRelativeHeight": 0.25,
+                    "m_FadeTransitionWidth": 0.0,
+                    "m_Renderers": [
+                        {
+                            "m_Renderer": {
+                                "m_PersistentID": 5304737652828745695,
+                                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "m_ScreenRelativeHeight": 0.125,
+                    "m_FadeTransitionWidth": 0.0,
+                    "m_Renderers": [
+                        {
+                            "m_Renderer": {
+                                "m_PersistentID": 6354075450918298963,
+                                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "m_ScreenRelativeHeight": 0.009999999776482582,
+                    "m_FadeTransitionWidth": 0.0,
+                    "m_Renderers": [
+                        {
+                            "m_Renderer": {
+                                "m_PersistentID": 1394407509420871077,
+                                "m_GUID": "80d2ee6dc82e3294599942e71b13f6fd"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "m_FadeMode": 0,
+            "m_AnimateCrossFading": true,
+            "m_LODExecutors": [],
+            "m_EnableCull": false
+        }
+    },
+    "m_Object_15": {
+        "PrefabInstance": {
+            "EditorExtensionTransfer": {
+                "EditorExtension": {
+                    "m_HideFlags": 0
+                }
+            },
+            "m_RootObjectTypeID": 207,
+            "m_SourcePrefabGUID": "cb0fe89c310477e47b1c34b548812588",
+            "Debug_Path": "G:/MyProject/Assets/mat/normal.mat",
+            "m_RootObject": {
+                "m_PersistentID": 5249021694551372269,
+                "m_GUID": "cb0fe89c310477e47b1c34b548812588"
+            },
+            "m_ModificationContianer": {
+                "m_Modifications": [],
+                "m_RemovedObjects": [],
+                "m_AddGameObjects": []
+            },
+            "m_IsVariant": false
+        }
+    }
+}
