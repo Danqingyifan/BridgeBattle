@@ -383,9 +383,9 @@
                     "w": 1.0
                 },
                 "m_LocalPosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 50.0,
+                    "y": 50.0,
+                    "z": 50.0
                 },
                 "m_LocalScale": {
                     "x": 1.0,
@@ -478,9 +478,9 @@
                     "w": 1.0
                 },
                 "m_LocalPosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 50.0,
+                    "y": 50.0,
+                    "z": 50.0
                 },
                 "m_LocalScale": {
                     "x": 1.0,
@@ -573,9 +573,9 @@
                     "w": 1.0
                 },
                 "m_LocalPosition": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "z": 0.0
+                    "x": 50.0,
+                    "y": 50.0,
+                    "z": 50.0
                 },
                 "m_LocalScale": {
                     "x": 1.0,
@@ -694,7 +694,7 @@
             },
             "m_RootObjectTypeID": 207,
             "m_SourcePrefabGUID": "cb0fe89c310477e47b1c34b548812588",
-            "Debug_Path": "G:/MyProject/Assets/mat/normal.mat",
+            "Debug_Path": "G:/MyProject/Assets/Prefabs/Source/mat/normal.mat",
             "m_RootObject": {
                 "m_PersistentID": 5249021694551372269,
                 "m_GUID": "cb0fe89c310477e47b1c34b548812588"

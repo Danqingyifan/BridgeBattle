@@ -1,14 +1,14 @@
 {
 	"ClassID": 128,
 	"ClassType": "Model",
-	"NodeId": 9677384364722,
+	"NodeId": 9677384376626,
 	"attribute": [
 	],
 	"flags": 0,
-	"realNodeName": "Store",
+	"realNodeName": "ground_cube_grass",
 	"reflex": [
 		{
-			"Name": "Store" 
+			"Name": "ground_cube_grass" 
 		},
 		{
 			"Tag": 0 
@@ -41,7 +41,7 @@
 		{
 			"LocalPosition": [
 				0,
-				200,
+				0,
 				0 
 			] 
 		},
@@ -111,7 +111,7 @@
 			] 
 		},
 		{
-			"ModelId": "sandboxSysId:\/\/entity\/100011\/body.omod" 
+			"ModelId": "sandboxId:\/\/Prefabs\/ground_cube_grass.prefab" 
 		},
 		{
 			"Gravity": 980 
@@ -141,16 +141,16 @@
 		},
 		{
 			"Size": [
-				172.0734100341797,
-				200.5558166503906,
-				120.732177734375 
+				100,
+				100,
+				100 
 			] 
 		},
 		{
 			"Center": [
-				0,
-				100.2779083251953,
-				-9.145864486694336 
+				50,
+				50,
+				50 
 			] 
 		},
 		{
